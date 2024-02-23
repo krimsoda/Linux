@@ -1,6 +1,10 @@
-#Add user script
-#convert from windows format use dos2unix
-#execute command sudo ./
+###################################################################
+#Script Name	:Useradd                                                                                             
+#Description	:
+#Notes           :#convert from windows format use dos2unix
+#                 #execute command sudo ./                                                                                
+#Author       	:krimsoda                                               
+###################################################################
 
 #!/bin/bash
 
