@@ -11,7 +11,14 @@ if [ ! -f "userlist.txt" ]; then
     exit 1
 fi
 
-# Read the userlist file line by line and add users to the wheel group
+# Check if the sudo group exists
+if grep -q '^sudo:' /etc/group; then
+    sudo_group="sudo"
+else
+    sudo_group="wheel"
+fi
+
+# Read the userlist file line by line and add users to the appropriate group
 while IFS= read -r username; do
     # Check if the username is empty or starts with a comment symbol "#"
     if [[ -z "$username" || "$username" =~ ^# ]]; then
@@ -20,12 +27,12 @@ while IFS= read -r username; do
 
     # Check if the user exists
     if id "$username" &>/dev/null; then
-        # Add the user to the wheel group
-        usermod -aG wheel "$username"
-        echo "User '$username' added to the wheel group."
+        # Add the user to the appropriate group
+        usermod -aG "$sudo_group" "$username"
+        echo "User '$username' added to the '$sudo_group' group."
     else
-        echo "User '$username' not found. Skipping adding to the wheel group..."
+        echo "User '$username' not found. Skipping adding to the '$sudo_group' group..."
     fi
 done < "userlist.txt"
 
-echo "Adding users to the wheel group completed."
+echo "Adding users to the '$sudo_group' group completed."
