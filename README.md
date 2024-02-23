@@ -6,6 +6,6 @@ Linux # System # Management # Configuration # Security #
 
 User Management
 
-[user_add](user_add.sh)
+[user add](user_add.sh)
 
-[user_setpasswd](user_setpasword.sh)
+[user setpasswd](user_setpasword.sh)
