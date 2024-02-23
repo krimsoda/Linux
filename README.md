@@ -4,4 +4,4 @@
 
 Linux # Management # Configuration # Security # Hardening
 
-[user](user_add.sh)!
+[user](user_add.sh)
