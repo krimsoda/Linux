@@ -12,4 +12,4 @@ Basic Script:
 
   :arrow_right:[user setpasswd](user_setpasword.sh)
 
-  :arrow_right:
+  :arrow_right:[user_addgroup_sudo](user_addgroup_sudo.sh)
