@@ -1,3 +1,4 @@
+#!/bin/bash
 ###################################################################
 #Script Name	:Useradd                                                                                             
 #Description	:
@@ -5,8 +6,6 @@
 #                 #execute command sudo ./                                                                                
 #Author       	:krimsoda                                               
 ###################################################################
-
-#!/bin/bash
 
 # Check if the userlist file exists
 if [ ! -f "userlist.txt" ]; then
