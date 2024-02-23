@@ -1,0 +1,14 @@
+– search manipulate filter compare
+•Search file name
+	find / -name file | / (slash) whole system |. (dot) working directory | ~ (tilde) home directory
+	locate - use database updatedb
+	whereis {command}
+	which – looks for binaries in $PATH
+	Find and delete: find /home/* -mtime +365 -delete
+	Find and move: find /home/* -cmin -5 -exec mv {} /destination \;
+•Search text in files or directory
+	Grep | grep -iR bob *
+•Edit file – vi
+•Compare files - diff
+•View | Manipulate | Filter file
+	cat, grep, cut, sort, uniq, wc, head, tail, less, more
