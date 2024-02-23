@@ -1,5 +1,6 @@
 #Add user script
 #convert from windows format use dos2unix
+#execute command sudo ./
 
 #!/bin/bash
 
