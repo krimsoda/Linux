@@ -4,4 +4,4 @@
 
 Linux # Management # Configuration # Security # Hardening
 
-[user](./abc/test.md)!
+[user]([./abc/test.md](https://github.com/krimsoda/Linux-Notes/blob/main/user_add.sh)https://github.com/krimsoda/Linux-Notes/blob/main/user_add.sh)!
