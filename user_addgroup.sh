@@ -1,8 +1,8 @@
 #!/bin/bash
 ###################################################################
-#Script Name	:Useradd                                                                                             
+#Script Name	:addgroup                                                                                             
 #Description	:
-#Notes          :file: userlist.txt"                                                                    
+#Notes          :file: userlist.txt" change group sudo RedHat: wheel Debian: sudo                                                                
 #Author       	:krimsoda                                               
 ###################################################################
 # Check if the userlist file exists
