@@ -1,8 +1,8 @@
 #!/bin/bash
 ###################################################################
-#Script Name	:addgroup                                                                                             
-#Description	:add group sudo RedHat: wheel Debian: sudo
-#Notes          :file: userlist.txt" change group sudo RedHat: wheel Debian: sudo                                                                
+#Script Name	:removegroup                                                                                             
+#Description	:Remove the User from the sudo Group: RedHat: wheel Debian: sudo
+#Notes          :file: userlist.txt"                                                                
 #Author       	:krimsoda                                               
 ###################################################################
 
