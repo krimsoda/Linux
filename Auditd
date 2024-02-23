@@ -1,0 +1,11 @@
+	dnf install audit audispd-plugins | systemctl enable auditd | service auditd reload
+	/etc/audit/rules.d/audit.rules - edit | /etc/audit/audit.rules | /etc/audit/auditd.conf
+	auditctl -l : list the rules | auditctl -w  /etc/passwd -p  rwxa
+	ausearch -i -k {key_name} |  ausearch -f /etc/passwd | ausearch --event 666
+	aureport -x | -au | -m 
+	aulast - last logged-in users
+	aulastlog - login for all users
+	tail -5 /var/log/audit/audit.log
+	/etc/audit/plugins.d/syslog.conf - Forwarding Linux Audit logs to syslog
+	/etc/audit/audisp-remote.conf - Forwarding audit logs over the network with audispd
+	/etc/audit/plugins.d/au-remote.conf - Activate the plugin
