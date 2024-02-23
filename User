@@ -1,4 +1,6 @@
 #Add user script
+#convert from windows format use dos2unix
+
 #!/bin/bash
 
 # Check if the userlist file exists
