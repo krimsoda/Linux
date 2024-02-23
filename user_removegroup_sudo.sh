@@ -1,3 +1,11 @@
+#!/bin/bash
+###################################################################
+#Script Name	:addgroup                                                                                             
+#Description	:add group sudo RedHat: wheel Debian: sudo
+#Notes          :file: userlist.txt" change group sudo RedHat: wheel Debian: sudo                                                                
+#Author       	:krimsoda                                               
+###################################################################
+
 # Check if the userlist file exists
 if [ ! -f "userlist.txt" ]; then
     echo "Userlist file 'userlist.txt' not found in the current directory."
