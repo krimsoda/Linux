@@ -1,7 +1,7 @@
 #!/bin/bash
 ###################################################################
 #Script Name	:addgroup                                                                                             
-#Description	:change group sudo RedHat: wheel Debian: sudo
+#Description	:add group sudo RedHat: wheel Debian: sudo
 #Notes          :file: userlist.txt" change group sudo RedHat: wheel Debian: sudo                                                                
 #Author       	:krimsoda                                               
 ###################################################################
