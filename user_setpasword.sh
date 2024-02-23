@@ -2,7 +2,7 @@
 ###################################################################
 #Script Name	:Set Password                                                                                             
 #Description	:
-#Notes           :                                                                             
+#Notes          :file: userlist.txt"                                                                                
 #Author       	:krimsoda                                               
 ###################################################################
 
