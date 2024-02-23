@@ -2,8 +2,7 @@
 ###################################################################
 #Script Name	:Useradd                                                                                             
 #Description	:
-#Notes           :#convert from windows format use dos2unix
-#                 #execute command sudo ./                                                                                
+#Notes           :                                                                             
 #Author       	:krimsoda                                               
 ###################################################################
 
