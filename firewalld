@@ -21,6 +21,7 @@ firewall-cmd --list-all  -> check firewalld status
 firewall-cmd --reload  -> reload configuration
 
 firewall-cmd --get-zones    -> list zones
+firewall-cmd --get-active-zones    -> check active zone
 firewall-cmd --change-interface=ens3 --zone=corp --permanent    -> assign interface to zone
 
 firewall-cmd --permanent --zone=external --add-service=ftp    -> add service/port
