@@ -28,5 +28,5 @@ firewall-cmd --permanent --zone=external --add-service=ftp    -> add service/por
 firewall-cmd --permanent --zone=external --add-port=60001/udp
 firewall-cmd --permanent --zone=external --remove-service=ftp    -> remove service/port
 firewall-cmd --permanent --zone=external --remove-port=60001/udp
-
+test
 
