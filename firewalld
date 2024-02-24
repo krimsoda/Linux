@@ -1,4 +1,21 @@
-:arrow_right: firewalld
-network interface
+Firewalld
+->Network interface
+->Zone
+    block
+    dmz
+    drop
+    external
+    home
+    internal
+    libvirt
+    public
+    trusted
+    work
+->Service
+->Port
 
+
+=====================
+firewall-cmd --list-all  -> check firewalld status
+firewall-cmd --reload  -> reload configuration
 
