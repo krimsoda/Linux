@@ -17,4 +17,6 @@ Script:
 
   :arrow_right:[user_addgroup_sudo](sc_user_addgroup_sudo.sh)
 
-  ### :helicopter:File & Folder
+ ### :helicopter:File & Folder
+ ### :helicopter:VI
+ ### :helicopter:Troubleshooting
