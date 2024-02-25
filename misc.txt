@@ -1,11 +1,23 @@
 utility
 #download
+
+-wget
 wget [address] #download/saving
 wget -O user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Saving Remote Files with a Specific File Name
 
+-curl
 curl [address] #contents display
 curl -O [address] #download/saving
 curl -o user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Saving Remote Files with a Specific File Name
+
+-scp
+scp file.txt remote_username@10.10.0.2:/remote/directory  #Copy a Local File to a Remote System 
+scp remote_username@10.10.0.2:/remote/file.txt /local/directory  #Copy a Remote File to a Local System
+
+-rsync
+rsync -r dir1/ dir2  #copy local system
+rsync -a ~/dir1 username@remote_host:destination_directory  #Using Rsync to Sync with a Remote System (push)
+rsync -a username@remote_host:/home/username/dir1 place_to_sync_on_local_machine  #Using Rsync to Sync with a Remote System (pull)
 
 git clone [git address]
 git pull
