@@ -1,6 +1,8 @@
 utility
 #download
-wget
+wget [address] #download/saving
+wget -O user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Saving Remote Files with a Specific File Name
+
 curl [address] #contents display
 curl -O [address] #download/saving
 curl -o user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Saving Remote Files with a Specific File Name
