@@ -7,7 +7,7 @@
 ### :helicopter:User Management
 Info
 
- :arrow_right:[user add]
+ :arrow_right:[user](info_user_management)
 
 Script:
 
