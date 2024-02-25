@@ -16,17 +16,17 @@ Firewalld
 
 
 =====================
-systemctl enable --now firewalld
-firewall-cmd --list-all  -> check firewalld status
-firewall-cmd --reload  -> reload configuration
+systemctl enable --now firewalld # firewalld service
+firewall-cmd --list-all  # check firewalld status
+firewall-cmd --reload  # reload configuration
 
-firewall-cmd --get-zones    -> list zones
-firewall-cmd --get-active-zones    -> check active zone
-firewall-cmd --change-interface=ens3 --zone=corp --permanent    -> assign interface to zone
+firewall-cmd --get-zones    # list zones
+firewall-cmd --get-active-zones    # check active zone
+firewall-cmd --change-interface=ens3 --zone=corp --permanent    # assign interface to zone
 
-firewall-cmd --permanent --zone=external --add-service=ftp    -> add service/port
+firewall-cmd --permanent --zone=external --add-service=ftp    # add service/port
 firewall-cmd --permanent --zone=external --add-port=60001/udp
-firewall-cmd --permanent --zone=external --remove-service=ftp    -> remove service/port
+firewall-cmd --permanent --zone=external --remove-service=ftp    # remove service/port
 firewall-cmd --permanent --zone=external --remove-port=60001/udp
 test
 
