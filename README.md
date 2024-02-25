@@ -7,7 +7,7 @@
 ### :helicopter:User Management
 Info
 
- :arrow_right:[user](info_user_management)
+ :arrow_right:[user](https://github.com/krimsoda/Linux/blob/21d9888f011546b6eecf69038c4ad7c1b888dc2f/info_user%20management)
 
 Script:
 
