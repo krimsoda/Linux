@@ -19,6 +19,7 @@ rsync -r dir1/ dir2  #copy local system
 rsync -a ~/dir1 username@remote_host:destination_directory  #Using Rsync to Sync with a Remote System (push)
 rsync -a username@remote_host:/home/username/dir1 place_to_sync_on_local_machine  #Using Rsync to Sync with a Remote System (pull)
 
+-git
 git clone [git address]
 git pull
 
