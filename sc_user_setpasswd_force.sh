@@ -1,4 +1,10 @@
 #!/bin/bash
+###################################################################
+#Script Name	:Set User Password                                                                                            
+#Description	:Set Password with force password change first login
+#Notes          :file: userlist.txt"                                                                                
+#Author       	:krimsoda                                               
+###################################################################
 
 # Define the password
 PASSWORD="password1"
