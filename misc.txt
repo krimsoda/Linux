@@ -5,3 +5,9 @@ curl
 
 git clone [git address]
 git pull
+
+History
+set +o history # temporarily turn off history
+# commands here won't be saved
+set -o history # turn it back on
+
