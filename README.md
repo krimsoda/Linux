@@ -13,8 +13,8 @@ Script:
 
   :arrow_right:[user add](sc_user_add.sh)
 
-  :arrow_right:[user setpasswd](user_setpasword.sh)
+  :arrow_right:[user setpasswd](sc_user_setpasword.sh)
 
-  :arrow_right:[user_addgroup_sudo](user_addgroup_sudo.sh)
+  :arrow_right:[user_addgroup_sudo](sc_user_addgroup_sudo.sh)
 
   ### :helicopter:File & Folder
