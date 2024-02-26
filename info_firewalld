@@ -14,7 +14,7 @@ Firewalld
 ->Service
 ->Port
 
-
+firewalld -->interface -->zones -->port&service -->--permanent
 =====================
 systemctl enable --now firewalld # firewalld service
 firewall-cmd --list-all  # check firewalld status
@@ -36,4 +36,23 @@ firewall-cmd --permanent --zone=external --remove-port=60001/udp
     -interface
     -services
     -ports
+firewall-cmd --list-services
+firewall-cmd --list-ports
 
+
+option
+
+firewall-cmd: This is the primary command-line tool for managing firewalld. It allows you to add, remove, and modify firewall rules.
+--permanent: Many firewall-cmd commands accept the --permanent option, which indicates that the changes should be made permanent and persist across reboots.
+--zone: Specifies the firewall zone to which the changes apply. Zones define the level of trust for network connections. Common zones include "public", "internal", "external", "trusted", etc.
+--add-service: Adds a service to the firewall rules. Services are predefined sets of ports and protocols associated with specific applications or services. For example, "http", "ssh", "smtp", etc.
+--remove-service: Removes a service from the firewall rules.
+--add-port: Adds a port to the firewall rules. You need to specify both the port number and the protocol (tcp or udp). For example, "--add-port=80/tcp".
+--remove-port: Removes a port from the firewall rules.
+--list-all: Displays a comprehensive list of all firewall rules, zones, services, ports, and other settings.
+--reload: Reloads the firewalld configuration to apply any changes made since the last reload.
+--panic-on: Sets the firewall to panic mode, blocking all incoming and outgoing traffic except for traffic explicitly allowed by predefined rules.
+--panic-off: Disables panic mode, allowing normal traffic flow according to firewall rules.
+--query-panic: Checks if panic mode is currently enabled or disabled.
+--get-default-zone: Retrieves the default firewall zone.
+--set-default-zone: Sets the default firewall zone.
