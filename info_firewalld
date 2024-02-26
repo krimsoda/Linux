@@ -13,7 +13,7 @@ Firewalld
     work
 ->Service
 ->Port
-testing
+
 firewalld -->interface -->zones -->port&service --> --permanent
 =====================
 systemctl enable --now firewalld # firewalld service
