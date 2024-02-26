@@ -58,3 +58,11 @@ firewall-cmd: This is the primary command-line tool for managing firewalld. It a
 --query-panic: Checks if panic mode is currently enabled or disabled.
 --get-default-zone: Retrieves the default firewall zone.
 --set-default-zone: Sets the default firewall zone.
+
+=====================
+step
+ 
+1.firewall-cmd --get-default-zone    #Display the current default zone:
+2.firewall-cmd --set-default-zone work    #set default zone
+3.firewall-cmd --get-active-zones    #List the active zones and the interfaces assigned 
+3.firewall-cmd --zone=zone-name --change-interface=<interface-name>    #Assign the interface to a different zone
