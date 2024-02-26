@@ -41,6 +41,8 @@ firewall-cmd --list-ports
 
 
 option
+to - set + --permanent
+to - list
 
 firewall-cmd: This is the primary command-line tool for managing firewalld. It allows you to add, remove, and modify firewall rules.
 --permanent: Many firewall-cmd commands accept the --permanent option, which indicates that the changes should be made permanent and persist across reboots.
