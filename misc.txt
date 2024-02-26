@@ -28,3 +28,9 @@ set +o history # temporarily turn off history
 # commands here won't be saved
 set -o history # turn it back on
 history -d [line] #delete a single command number 
+
+Check Ports via lsof
+lsof -nP -iTCP -sTCP:LISTEN
+lsof -nP -i:[port-number]
+lsof -nP -iUDP:53
+nmap -n -PN -sT -sU -p- localhost  
