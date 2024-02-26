@@ -14,7 +14,7 @@ Firewalld
 ->Service
 ->Port
 
-firewalld -->interface -->zones -->port&service -->--permanent
+firewalld -->interface -->zones -->port&service --> --permanent
 =====================
 systemctl enable --now firewalld # firewalld service
 firewall-cmd --list-all  # check firewalld status
