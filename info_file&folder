@@ -12,3 +12,5 @@
 •Compare files - diff
 •View | Manipulate | Filter file
 	cat, grep, cut, sort, uniq, wc, head, tail, less, more
+sudo apt install net-tools
+
