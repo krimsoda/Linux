@@ -19,6 +19,8 @@ nmcli con mod enps03 ipv4.dns “8.8.8.8”  #set up the DNS server
 nmcli con mod enps03 ipv4.method manual  #change the addressing from DHCP to static
 nmcli con up enps03  #To save the changes
 
+nmcli con mod enps03 connection.interface-name enps03  #Attaching a NetworkManager connection to a specific device
+
 #Connection Name:
 connection: Specifies the name for the new connection.
 
