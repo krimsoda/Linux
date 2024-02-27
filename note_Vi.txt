@@ -1,97 +1,89 @@
-# Vi (Vim) Notes
+### Vi Editor Tutorial
 
-## Basic Commands
-esc
+Vi is a powerful text editor available on most Unix-like systems. It's a modal editor with two main modes: command mode and insert mode. In command mode, you can navigate, edit, and perform various operations on text. In insert mode, you can enter text.
 
-| Command      | Description                              |
-|--------------|------------------------------------------|
-| `vi filename`| Open or create a file in Vi              |
-| `i`          | Switch to insert mode                    |
-| `Esc`        | Return to command mode                   |
-| `:w`         | Save changes (write)                     |
-| `:q`         | Quit Vi (if no changes made)             |
-| `:q!`        | Quit Vi without saving changes           |
-| `:wq`        | Save changes and quit                    |
+#### Navigation
 
-## Navigation
+| Command          | Description                               |
+|------------------|-------------------------------------------|
+| `h` or `←`       | Move cursor left                          |
+| `j` or `↓`       | Move cursor down                          |
+| `k` or `↑`       | Move cursor up                            |
+| `l` or `→`       | Move cursor right                         |
+| `0`              | Move to the beginning of the line         |
+| `$`              | Move to the end of the line               |
+| `gg`             | Move to the beginning of the file         |
+| `G`              | Move to the end of the file               |
+| `w`              | Move forward one word                     |
+| `b`              | Move backward one word                    |
+| `Ctrl + f`       | Move forward one page                     |
+| `Ctrl + b`       | Move backward one page                    |
 
-| Command      | Description                              |
-|--------------|------------------------------------------|
-| `h`          | Move cursor left                         |
-| `j`          | Move cursor down                         |
-| `k`          | Move cursor up                           |
-| `l`          | Move cursor right                        |
-| `^` or `0`   | Move cursor to beginning of line         |
-| `$`          | Move cursor to end of line               |
-| `gg`         | Move to the first line of the file       |
-| `G`          | Move to the last line of the file        |
+#### Editing
 
-## Editing
+| Command          | Description                               |
+|------------------|-------------------------------------------|
+| `i`              | Switch to insert mode (before cursor)     |
+| `I`              | Switch to insert mode (beginning of line) |
+| `a`              | Switch to insert mode (after cursor)      |
+| `A`              | Switch to insert mode (end of line)       |
+| `o`              | Open a new line below and switch to insert mode |
+| `O`              | Open a new line above and switch to insert mode |
+| `x`              | Delete character under cursor             |
+| `dd`             | Delete current line                       |
+| `yy`             | Yank (copy) current line                  |
+| `p`              | Paste yanked or deleted text after cursor |
+| `P`              | Paste yanked or deleted text before cursor|
 
-| Command      | Description                              |
-|--------------|------------------------------------------|
-| `x`          | Delete character under cursor            |
-| `dd`         | Delete current line                      |
-| `yy`         | Copy current line                        |
-| `p`          | Paste copied or deleted text after cursor|
-| `u`          | Undo last change                         |
-| `Ctrl + r`   | Redo last undone change                  |
-| `:s/old/new/g` | Replace `old` with `new` globally     |
+#### Saving and Exiting
 
-## Searching and Replacing
+| Command          | Description                               |
+|------------------|-------------------------------------------|
+| `:w`             | Save changes                               |
+| `:wq` or `:x`   | Save changes and exit (write and quit)    |
+| `:q`             | Quit (exit)                                |
+| `:q!`            | Quit without saving changes (force quit)   |
 
-| Command      | Description                              |
-|--------------|------------------------------------------|
-| `/pattern`   | Search forward for `pattern`             |
-| `?pattern`   | Search backward for `pattern`            |
-| `n`          | Move to next search result               |
-| `N`          | Move to previous search result           |
-| `:%s/old/new/g` | Replace `old` with `new` in entire file|
+#### Search and Replace
 
-## Exiting
+| Command          | Description                               |
+|------------------|-------------------------------------------|
+| `/pattern`       | Search forward for a pattern              |
+| `?pattern`       | Search backward for a pattern             |
+| `n`              | Move to the next occurrence of the search pattern |
+| `N`              | Move to the previous occurrence of the search pattern |
+| `:s/pattern/replacement` | Replace pattern with replacement (current line) |
+| `:%s/pattern/replacement/g` | Replace pattern with replacement (entire file) |
 
-| Command      | Description                              |
-|--------------|------------------------------------------|
-| `:w`         | Save changes                             |
-| `:q`         | Quit Vi (if no changes made)             |
-| `:q!`        | Quit Vi without saving changes           |
-| `:wq`        | Save changes and quit                    |
+#### Visual Mode
 
-## Advanced
+| Command          | Description                               |
+|------------------|-------------------------------------------|
+| `v`              | Enter visual mode (select text)           |
+| `V`              | Enter visual line mode (select lines)     |
+| `Ctrl + v`       | Enter visual block mode (select blocks)   |
 
-| Command      | Description                              |
-|--------------|------------------------------------------|
-| `:set number`| Display line numbers                     |
-| `:set nonumber` | Hide line numbers                     |
-| `:set syntax=on` | Enable syntax highlighting            |
-| `:set syntax=off`| Disable syntax highlighting           |
-| `:help`      | Open Vim's built-in help                 |
-| `Ctrl + w`   | Switch between split windows             |
-| `:vsp filename` | Open a file in a vertical split     |
-| `:sp filename`  | Open a file in a horizontal split   |
+#### File Management
 
+| Command          | Description                               |
+|------------------|-------------------------------------------|
+| `:e filename`    | Open a file for editing                   |
+| `:w filename`    | Save file with a new name                 |
+| `:saveas filename` | Save file with a new name                 |
+| `:x`             | Save changes and exit (write and quit)    |
+| `:q`             | Quit (exit)                                |
+| `:q!`            | Quit without saving changes (force quit)   |
+| `:wq` or `ZZ`    | Save changes and exit (write and quit)    |
+| `:x!` or `ZQ`    | Save changes and exit (write and quit, even if file is read-only) |
+| `:%d`            | Empty the entire file                     |
+| `u`              | Undo last change                          |
+| `Ctrl + r`       | Redo last undone change                   |
+| `.`              | Repeat last command                       |
+| `:set number`    | Enable line numbering                     |
+| `:set nonumber`  | Disable line numbering                    |
+| `:help`          | Open Vi editor help                       |
+| `:clear` or `Ctrl + l` | Clear the screen (useful for refreshing the terminal) |
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Delete All Text 
-Type `:%d`
+This Vi editor tutorial covers basic navigation, editing, saving, searching, file management, and visual mode commands. Practice using these commands to become proficient with Vi.
