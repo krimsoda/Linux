@@ -1,10 +1,9 @@
-ip a
+Useful Guide
 
-command-line tool
+ip a
 nmcli
 Device  #network card
 Connection  #profile
-
 
 #The nmcli tool can be used to start and stop any network interface, including controllers.
 nmcli con up id bond0
