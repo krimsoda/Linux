@@ -2,6 +2,10 @@
 
 Vi is a powerful text editor available on most Unix-like systems. It's a modal editor with two main modes: command mode and insert mode. In command mode, you can navigate, edit, and perform various operations on text. In insert mode, you can enter text.
 
+#### Using the ESC Key
+
+To exit from insert mode to command mode, simply press the `ESC` key. This will allow you to execute command mode commands such as navigation, editing, saving, and searching. If you're in visual mode and want to return to command mode, pressing `ESC` will also achieve that.
+
 #### Navigation
 
 | Command          | Description                               |
@@ -19,6 +23,8 @@ Vi is a powerful text editor available on most Unix-like systems. It's a modal e
 | `Ctrl + f`       | Move forward one page                     |
 | `Ctrl + b`       | Move backward one page                    |
 
+To return to command mode: Press `ESC`.
+
 #### Editing
 
 | Command          | Description                               |
@@ -35,6 +41,8 @@ Vi is a powerful text editor available on most Unix-like systems. It's a modal e
 | `p`              | Paste yanked or deleted text after cursor |
 | `P`              | Paste yanked or deleted text before cursor|
 
+To return to command mode: Press `ESC`.
+
 #### Saving and Exiting
 
 | Command          | Description                               |
@@ -43,6 +51,8 @@ Vi is a powerful text editor available on most Unix-like systems. It's a modal e
 | `:wq` or `:x`   | Save changes and exit (write and quit)    |
 | `:q`             | Quit (exit)                                |
 | `:q!`            | Quit without saving changes (force quit)   |
+
+To return to command mode: Press `ESC`.
 
 #### Search and Replace
 
@@ -55,6 +65,8 @@ Vi is a powerful text editor available on most Unix-like systems. It's a modal e
 | `:s/pattern/replacement` | Replace pattern with replacement (current line) |
 | `:%s/pattern/replacement/g` | Replace pattern with replacement (entire file) |
 
+To return to command mode: Press `ESC`.
+
 #### Visual Mode
 
 | Command          | Description                               |
@@ -63,6 +75,8 @@ Vi is a powerful text editor available on most Unix-like systems. It's a modal e
 | `V`              | Enter visual line mode (select lines)     |
 | `Ctrl + v`       | Enter visual block mode (select blocks)   |
 
+To return to command mode: Press `ESC`.
+
 #### File Management
 
 | Command          | Description                               |
@@ -70,6 +84,7 @@ Vi is a powerful text editor available on most Unix-like systems. It's a modal e
 | `:e filename`    | Open a file for editing                   |
 | `:w filename`    | Save file with a new name                 |
 | `:saveas filename` | Save file with a new name                 |
+| `:r filename`    | Import contents of filename               |
 | `:x`             | Save changes and exit (write and quit)    |
 | `:q`             | Quit (exit)                                |
 | `:q!`            | Quit without saving changes (force quit)   |
@@ -83,6 +98,8 @@ Vi is a powerful text editor available on most Unix-like systems. It's a modal e
 | `:set nonumber`  | Disable line numbering                    |
 | `:help`          | Open Vi editor help                       |
 | `:clear` or `Ctrl + l` | Clear the screen (useful for refreshing the terminal) |
+
+To return to command mode: Press `ESC`.
 
 ---
 
