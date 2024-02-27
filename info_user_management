@@ -1,3 +1,50 @@
 useradd
+useradd - create a new user or update default new user information
+
+OPTIONS
+    -c, --comment COMMENT
+        Specify a comment or description for the new user. This comment is usually the full name of the user.
+    -d, --home HOME_DIR
+        Specify the home directory for the new user. If not specified, the default home directory is created under /home/USERNAME.
+    -g, --gid GROUP
+        Specify the primary group for the new user. If not specified, a group with the same name as the user will be created as the primary group.
+    -G, --groups GROUP1[,GROUP2,...[,GROUPN]]]
+        Specify additional groups for the new user. These groups will be supplementary groups for the user.
+    -m, --create-home
+        Create the user's home directory if it does not exist. If this option is not used, the home directory will not be created by default.
+    -s, --shell SHELL
+        Specify the login shell for the new user. If not specified, the default shell (/bin/bash) will be used.
+    -u, --uid UID
+        Specify the user ID (UID) for the new user. If not specified, the next available UID will be assigned.
+
+EXAMPLES
+    1. Create a new user with default settings:
+        useradd john
+    2. Create a new user with a specific home directory and login shell:
+        useradd -d /home/jane -s /bin/zsh jane
+    3. Create a new user with a comment and specify the primary group:
+        useradd -c "John Doe" -g users john_doe
+    4. Create a new user with multiple supplementary groups:
+        useradd -G wheel,developers sarah
+    5. Create a new user and explicitly specify the UID:
+        useradd -u 1001 alex
+    6. Create a new user with a home directory and ensure it is created:
+        useradd -m -d /home/testuser testuser
+    7. Create a new user without a home directory:
+        useradd -M user_without_home
+    8. Create a new user with specific defaults set in /etc/default/useradd:
+        useradd -D -b /opt -s /bin/bash
+    9. Create a new system user (UID below 1000):
+        useradd -r system_user
+    10. Create a new user interactively, prompting for details:
+        useradd -i interactive_user
+
+
+
+
+
+
+
+
 userdel
 usermod
