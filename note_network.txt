@@ -33,10 +33,6 @@ ipv6.addresses: Specifies the IPv6 addresses.
 ipv6.gateway: Specifies the IPv6 gateway.
 ipv6.dns: Specifies the IPv6 DNS servers.
 
-
-
-
-
 nmcli's interactive editor
 -nmcli connection edit ethernet-enp0s8 #The edit action will open the interactive editor on the connection you specify
 -print
