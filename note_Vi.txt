@@ -1,2 +1,97 @@
+# Vi (Vim) Notes
+
+## Basic Commands
+esc
+
+| Command      | Description                              |
+|--------------|------------------------------------------|
+| `vi filename`| Open or create a file in Vi              |
+| `i`          | Switch to insert mode                    |
+| `Esc`        | Return to command mode                   |
+| `:w`         | Save changes (write)                     |
+| `:q`         | Quit Vi (if no changes made)             |
+| `:q!`        | Quit Vi without saving changes           |
+| `:wq`        | Save changes and quit                    |
+
+## Navigation
+
+| Command      | Description                              |
+|--------------|------------------------------------------|
+| `h`          | Move cursor left                         |
+| `j`          | Move cursor down                         |
+| `k`          | Move cursor up                           |
+| `l`          | Move cursor right                        |
+| `^` or `0`   | Move cursor to beginning of line         |
+| `$`          | Move cursor to end of line               |
+| `gg`         | Move to the first line of the file       |
+| `G`          | Move to the last line of the file        |
+
+## Editing
+
+| Command      | Description                              |
+|--------------|------------------------------------------|
+| `x`          | Delete character under cursor            |
+| `dd`         | Delete current line                      |
+| `yy`         | Copy current line                        |
+| `p`          | Paste copied or deleted text after cursor|
+| `u`          | Undo last change                         |
+| `Ctrl + r`   | Redo last undone change                  |
+| `:s/old/new/g` | Replace `old` with `new` globally     |
+
+## Searching and Replacing
+
+| Command      | Description                              |
+|--------------|------------------------------------------|
+| `/pattern`   | Search forward for `pattern`             |
+| `?pattern`   | Search backward for `pattern`            |
+| `n`          | Move to next search result               |
+| `N`          | Move to previous search result           |
+| `:%s/old/new/g` | Replace `old` with `new` in entire file|
+
+## Exiting
+
+| Command      | Description                              |
+|--------------|------------------------------------------|
+| `:w`         | Save changes                             |
+| `:q`         | Quit Vi (if no changes made)             |
+| `:q!`        | Quit Vi without saving changes           |
+| `:wq`        | Save changes and quit                    |
+
+## Advanced
+
+| Command      | Description                              |
+|--------------|------------------------------------------|
+| `:set number`| Display line numbers                     |
+| `:set nonumber` | Hide line numbers                     |
+| `:set syntax=on` | Enable syntax highlighting            |
+| `:set syntax=off`| Disable syntax highlighting           |
+| `:help`      | Open Vim's built-in help                 |
+| `Ctrl + w`   | Switch between split windows             |
+| `:vsp filename` | Open a file in a vertical split     |
+| `:sp filename`  | Open a file in a horizontal split   |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Delete All Text 
 Type `:%d`
