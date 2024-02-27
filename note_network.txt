@@ -12,7 +12,12 @@ nmcli con up id port0
 nmcli dev disconnect bond0
 nmcli dev disconnect ens3
 
-nmcli con 
+#Set Static IP Address
+nmcli con mod enps03 ipv4.addresses 192.168.2.20/24  # set up the IP address
+nmcli con mod enps03 ipv4.gateway 192.168.2.1  #configure the default gateway
+nmcli con mod enps03 ipv4.dns “8.8.8.8”  #set up the DNS server
+nmcli con mod enps03 ipv4.method manual  #change the addressing from DHCP to static
+nmcli con up enps03  #To save the changes
 
 #Connection Name:
 connection: Specifies the name for the new connection.
