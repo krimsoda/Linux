@@ -1,3 +1,13 @@
+check User
+getent passwd will display all entries in the password database (/etc/passwd).Get entries
+getent shadow
+getent group will display all entries in the group database (/etc/group).
+getent hosts example.com will display the IP address(es) associated with the hostname "example.com" from the hosts database (/etc/hosts or DNS).
+getent services ssh will display the port(s) associated with the SSH service from the services database (/etc/services).
+
+
+
+
 useradd
 useradd - create a new user or update default new user information
 
