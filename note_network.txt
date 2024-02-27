@@ -5,6 +5,11 @@ nmcli
 Device  #network card
 Connection  #profile
 
+Check
+nmcli connection show
+nmcli device show
+nmcli device status
+
 #The nmcli tool can be used to start and stop any network interface, including controllers.
 nmcli con up id bond0
 nmcli con up id port0
