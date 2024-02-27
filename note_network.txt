@@ -17,6 +17,8 @@ nmcli con
 #Connection Name:
 connection: Specifies the name for the new connection.
 
+nmcli type
+
 #Connection Type:
 type: Specifies the type of the connection (e.g., ethernet, wifi, VPN).
 
@@ -40,5 +42,5 @@ nmcli's interactive editor
 -save
 -quit
 
-
 Step:
+check config before Add or Modify/Edit connection
