@@ -14,16 +14,16 @@ nmcli dev disconnect ens3
 
 nmcli con 
 
-Connection Name:
+#Connection Name:
 connection: Specifies the name for the new connection.
 
-Connection Type:
+#Connection Type:
 type: Specifies the type of the connection (e.g., ethernet, wifi, VPN).
 
-Ethernet Specific Options:
+#Ethernet Specific Options:
 ifname: Specifies the network interface name for Ethernet connections.
 
-IP Configuration:
+#IP Configuration:
 ipv4.method: Specifies the method for configuring IPv4 (e.g., auto, manual, disabled).
 ipv4.addresses: Specifies the IPv4 addresses.
 ipv4.gateway: Specifies the IPv4 gateway.
