@@ -2,6 +2,8 @@ ip a
 
 command-line tool
 nmcli
+Device  #network card
+Connection  #profile
 
 
 nmcli's interactive editor
@@ -10,4 +12,6 @@ nmcli's interactive editor
 -set
 -save
 -quit
+
+
 Step:
