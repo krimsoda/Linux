@@ -12,6 +12,27 @@ nmcli con up id port0
 nmcli dev disconnect bond0
 nmcli dev disconnect ens3
 
+nmcli con 
+
+Connection Name:
+connection: Specifies the name for the new connection.
+
+Connection Type:
+type: Specifies the type of the connection (e.g., ethernet, wifi, VPN).
+
+Ethernet Specific Options:
+ifname: Specifies the network interface name for Ethernet connections.
+
+IP Configuration:
+ipv4.method: Specifies the method for configuring IPv4 (e.g., auto, manual, disabled).
+ipv4.addresses: Specifies the IPv4 addresses.
+ipv4.gateway: Specifies the IPv4 gateway.
+ipv4.dns: Specifies the IPv4 DNS servers.
+ipv6.method: Specifies the method for configuring IPv6 (e.g., auto, manual, disabled).
+ipv6.addresses: Specifies the IPv6 addresses.
+ipv6.gateway: Specifies the IPv6 gateway.
+ipv6.dns: Specifies the IPv6 DNS servers.
+
 
 
 
