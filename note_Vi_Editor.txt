@@ -1,10 +1,12 @@
 ### Vi Editor Tutorial
 
-Vi is a powerful text editor available on most Unix-like systems. It's a modal editor with two main modes: command mode and insert mode. In command mode, you can navigate, edit, and perform various operations on text. In insert mode, you can enter text.
+Vi is a powerful text editor available on most Unix-like systems. It's a modal editor with two main modes: command mode and insert mode. 
+In command mode, you can navigate, edit, and perform various operations on text. In insert mode, you can enter text.
 
 #### Using the ESC Key
 
-To exit from insert mode to command mode, simply press the `ESC` key. This will allow you to execute command mode commands such as navigation, editing, saving, and searching. If you're in visual mode and want to return to command mode, pressing `ESC` will also achieve that.
+To exit from insert mode to command mode, simply press the `ESC` key. This will allow you to execute command mode commands such as navigation, editing, saving, and searching. 
+If you're in visual mode and want to return to command mode, pressing `ESC` will also achieve that.
 
 #### Navigation
 
