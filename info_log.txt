@@ -11,9 +11,9 @@ rsyslogd -v
 
 
 Troubleshooting:
-ss -antpl | grep 514 or ss -4 altunp | grep 514  
+ss -antpl | grep 514 or ss -4 altunp | grep 514  #port test
 rsyslogd -f /etc/rsyslog.conf -N1  #Run a configuration check
 logger "I just logged a message"  #logging test
-logger -p daemon.error "This is a logging error test"
-logger -t logtester -p daemon.error "This is a logging error test"
+logger -p daemon.error "This is a logging error test"  #logging test
+logger -t logtester -p daemon.error "This is a logging error test"  #logging test
 
