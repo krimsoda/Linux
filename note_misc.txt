@@ -9,7 +9,7 @@ wget -O user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_u
 curl [address] #contents display
 curl -O [address] #Downloading/saving 
 curl -o user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Downloading and renaming files
-curl -k {file.txt}
+curl -K {file.txt}
 ##    file.txt    ##
 -O
 url = "https://raw.githubusercontent.com/krimsoda/Linux/main/note_misc.txt"
