@@ -1,11 +1,19 @@
 Syslog
 Package: rsyslog
-Service: syslog | rsyslog
+Service: syslog | rsyslog | /sbin/rsyslogd
 Port:  514
 Config file: /etc/syslog.conf | /etc/rsyslog.conf | etc/rsyslog.d/   #rsyslog/syslog-ng
-Config file: /etc/logrotate.conf |  /etc/logrotate.d/  #logrotate
+Config file: /etc/logrotate.conf |  /etc/logrotate.d/ | /etc/logrotate.d/rsyslog #logrotate
 Log File: /var/log
 
 
 rsyslogd -v
-logger "I just logged a message"
+
+
+Troubleshooting:
+ss -antpl | grep 514 or ss -4 altunp | grep 514  
+rsyslogd -f /etc/rsyslog.conf -N1  #Run a configuration check
+logger "I just logged a message"  #logging test
+logger -p daemon.error "This is a logging error test"
+logger -t logtester -p daemon.error "This is a logging error test"
+
