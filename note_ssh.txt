@@ -1,3 +1,7 @@
+Package: openssh-client openssh-server
+Service: sshd
+Config File: /etc/ssh/sshd_config
+
 #passwordless SSH authentication
 
 First Method:
