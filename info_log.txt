@@ -1,0 +1,8 @@
+Syslog
+Package: rsyslog
+Service: syslog
+Port:  514
+Config file: /etc/syslog.conf | /etc/rsyslog.conf | etc/rsyslog.d/
+Log File: /var/log
+
+rsyslogd -v
