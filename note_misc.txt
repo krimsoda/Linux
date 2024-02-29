@@ -8,7 +8,15 @@ wget -O user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_u
 -curl
 curl [address] #contents display
 curl -O [address] #Downloading/saving 
-curl -o user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Downloading and renaming files 
+curl -o user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Downloading and renaming files
+curl -k {file.txt}
+    file.txt
+   -O
+    url = "https://api.example.com"
+   -O
+    url = "https://api.example.com"
+    
+      
 
 -scp
 scp file.txt remote_username@10.10.0.2:/remote/directory  #Copy a Local File to a Remote System 
