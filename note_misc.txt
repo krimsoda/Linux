@@ -2,13 +2,13 @@ utility
 #download
 
 -wget
-wget [address] #download/saving
-wget -O user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Saving Remote Files with a Specific File Name
+wget [address] #Downloading/saving
+wget -O user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Downloading and renaming files 
 
 -curl
 curl [address] #contents display
-curl -O [address] #download/saving
-curl -o user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Saving Remote Files with a Specific File Name
+curl -O [address] #Downloading/saving 
+curl -o user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Downloading and renaming files 
 
 -scp
 scp file.txt remote_username@10.10.0.2:/remote/directory  #Copy a Local File to a Remote System 
