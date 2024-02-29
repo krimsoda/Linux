@@ -1,10 +1,15 @@
 check User
-getent passwd will display all entries in the password database (/etc/passwd).Get entries
+useradd -D #Displays the current default settings for new user accounts.
+
+getent passwd #will display all entries in the password database (/etc/passwd).Get entries
 getent shadow
-getent group will display all entries in the group database (/etc/group).
+getent group #will display all entries in the group database (/etc/group).
 getent hosts example.com will display the IP address(es) associated with the hostname "example.com" from the hosts database (/etc/hosts or DNS).
 getent services ssh will display the port(s) associated with the SSH service from the services database (/etc/services).
 
+useradd -m -d /opt/jane jane
+useradd -a
+usermod -aG wheel jorn
 
 
 
