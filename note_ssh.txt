@@ -12,3 +12,4 @@ ssh-copy-id
 Command: ssh-copy-id user@remote ip address
 
 Second Method:
+The simplest way to add a public key for a specific username is to manually copy the contents of the public key file (id_rsa.pub or any custom name) to the ~/.ssh/authorized_keys file on the remote server.
