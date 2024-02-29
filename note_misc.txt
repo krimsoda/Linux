@@ -10,11 +10,12 @@ curl [address] #contents display
 curl -O [address] #Downloading/saving 
 curl -o user_test1.sh https://raw.githubusercontent.com/krimsoda/Linux/main/sc_user_add.sh  #Downloading and renaming files
 curl -k {file.txt}
-    file.txt
-   -O
-    url = "https://api.example.com"
-   -O
-    url = "https://api.example.com"
+##    file.txt    ##
+-O
+url = "https://raw.githubusercontent.com/krimsoda/Linux/main/note_misc.txt"
+-O
+url = "https://raw.githubusercontent.com/krimsoda/Linux/main/note_network.txt"
+
     
       
 
