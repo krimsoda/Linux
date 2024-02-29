@@ -1,0 +1,4 @@
+
+ssh-keygen
+ssh-copy-id
+  ssh-copy-id to copy your public key to the remote server. 
