@@ -106,3 +106,6 @@ To return to command mode: Press `ESC`.
 ---
 
 This Vi editor tutorial covers basic navigation, editing, saving, searching, file management, and visual mode commands. Practice using these commands to become proficient with Vi.
+
+If there is an error on line # 26:
+vi +26 /etc/ssh/sshd_config
