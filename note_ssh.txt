@@ -1,6 +1,22 @@
 Package: openssh-client openssh-server
 Service: sshd
+Port: 22
 Config File: /etc/ssh/sshd_config
+           :  ~/.ssh/id_rsa.pub and ~/.ssh/id_rsa
+Log:/var/log/auth.log 
+    lastlog    
+    journalctl -u ssh
+
+Command:
+ssh remote_username@remote_host #
+
+Troubleshooting:
+systemctl status sshd
+ss tulpn | grep 22
+/usr/sbin/sshd -t or sshd -t  #Validate the configuration file
+/usr/sbin/sshd -T or sshd -T  #Verifying sshd configuration using extended test mode
+
+
 
 #passwordless SSH authentication
 
