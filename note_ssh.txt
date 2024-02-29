@@ -1,4 +1,14 @@
+#passwordless SSH authentication
 
+First Method:
+-Generate a key pair
 ssh-keygen
+-add public key to remote server
 ssh-copy-id
-  ssh-copy-id to copy your public key to the remote server. 
+  ssh-copy-id to copy your public key file (or the default id_rsa.pub) to the remote server.
+  Once authenticated, your public key will be added to the authorized_keys file on the remote server.
+  Appends the public key to the ~/.ssh/authorized_keys file on the remote server, creating it if it doesn't already exist.
+  Sets appropriate permissions on the authorized_keys file and the ~/.ssh directory (usually 700 for .ssh and 600 for authorized_keys) to ensure secure access.
+Command: ssh-copy-id user@remote ip address
+
+Second Method:
