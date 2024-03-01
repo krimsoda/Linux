@@ -18,6 +18,9 @@ nmcli con up enps03
 ```
 - Hostname & FQDN
 ```
+hostname
+```
+```
 hostnamectl set-hostname server1.example.com
 ```
 ### :helicopter: FirewallD
