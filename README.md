@@ -5,7 +5,7 @@
 ## Linux # System # Management # Configuration # Security # 
 
 ### :helicopter:User Management
-Info
+notes
 
  :arrow_right:[user](https://github.com/krimsoda/Linux/blob/582bc744a9b05090d81dc4382616fe2ff6be489e/note_user_management)
 
@@ -18,11 +18,11 @@ Script:
   :arrow_right:[user_addgroup bulk_sudo](sc_user_addgroup_sudo.sh)
 
  ### :helicopter:File & Folder
- Info
+ Notes
  ### :helicopter:Vi
- Info
+ Notes
  ### :helicopter:Troubleshooting
- Info
+ Notes
  ### :helicopter:HomeLab
  Linux
 - Linux load balancing
