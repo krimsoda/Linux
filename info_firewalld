@@ -1,6 +1,6 @@
 Firewalld
 ->Network interface
-->Zone
+->Zones
     block
     dmz
     drop
@@ -13,8 +13,10 @@ Firewalld
     work
 ->Service
 ->Port
+->Protocol
+->Rich Rules
 
-firewalld -->interface -->zones -->port&service --> --permanent
+firewalld -->interface -->zones -->port&service --> --permanent -->Rich Rules
 =====================
 systemctl enable --now firewalld # firewalld service
 firewall-cmd --list-all  # check firewalld status
