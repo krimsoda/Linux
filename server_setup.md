@@ -1,15 +1,28 @@
 # Server Setup
 
-### :helicopter:Network
+### :helicopter: System
+- Update & Upgrade
+### :helicopter: Network
 - Configure static IP (ip address, gateway, DNS)
-### :helicopter:FirewallD
+- Hostname & FQDN
+### :helicopter: FirewallD
 - Configure FirewallD (allow port & service)
-### :helicopter:SSH
+### :helicopter: SSH
 - Configure & secure
-### :helicopter:User
+### :helicopter: User
 - add multiple users & sudo group
-### :helicopter:Log
-- configure syslog | rsyslog
+### :helicopter: File/Directory Permissions/Access
+### :helicopter: Logging
+- Configure syslog | rsyslog
 - Configure Logrotate
-
+### :helicopter: AuditD
+- Configure AuditD
+### :helicopter: SELinux
+- Configure SELinux
+### :helicopter: Hardening
+- Configure baseline hardening
+- Disable Unnecessary Services & Port
+- File permission
+### :helicopter: Vulnerability Scanning
+- Scan and Patch
 
