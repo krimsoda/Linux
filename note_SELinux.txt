@@ -1,0 +1,9 @@
+Security-Enhanced Linux (SELinux)
+ways that you can configure SELinux to protect your system. 
+The most common are targeted policy or multi-level security (MLS)
+
+Targeted policy is the default option and covers a range of processes, tasks, and services. 
+MLS can be very complicated and is typically only used by government organizations.
+
+
+/etc/selinux/config and reboot, or run setenforce 1
