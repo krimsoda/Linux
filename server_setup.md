@@ -64,6 +64,9 @@ systemctl status rsyslog
 ### :helicopter: AuditD
 - Configure AuditD
 ```
+service auditd start
+```
+```
 systemctl status auditd
 ```
 ### :helicopter: SELinux
