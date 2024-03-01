@@ -52,6 +52,9 @@ getent group
 ### :helicopter: Scheduler
 - Cron
 ```
+crontab -e
+```
+```
 systemctl status crond
 ```
 - Systemd Timer
