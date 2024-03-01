@@ -2,6 +2,11 @@
 
 ### :helicopter: System
 - Update & Upgrade
+
+>test best
+> 
+> entah kenapa xbest
+
 ```
 dnf update -y && dnf upgrade -y
 ```
