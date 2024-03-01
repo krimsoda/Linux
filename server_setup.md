@@ -16,8 +16,10 @@ nmcli con mod enps03 ipv4.method manual
 ```
 nmcli con up enps03
 ```
-
 - Hostname & FQDN
+```
+hostnamectl set-hostname server1.example.com
+```
 ### :helicopter: FirewallD
 - Configure FirewallD (allow port & service)
 ```
