@@ -35,6 +35,7 @@ systemctl status firewalld
 ```
 ### :helicopter: SSH
 - Configure & secure
+> /etc/ssh/sshd_config
 ```
 systemctl status sshd
 ```
