@@ -30,6 +30,15 @@ systemctl status sshd
 ```
 ### :helicopter: User
 - add multiple users & sudo group
+```
+getent passwd
+```
+```
+getent shadow
+```
+```
+getent group
+```
 ### :helicopter: File/Directory Permissions/Access
 ### :helicopter: Logging
 - Configure syslog | rsyslog
