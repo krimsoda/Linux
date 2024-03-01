@@ -23,7 +23,11 @@ Script:
  Info
  ### :helicopter:Troubleshooting
  Info
- ### :helicopter:Project
+ ### :helicopter:HomeLab
+ Linux
 - Linux load balancing
 - Integrating Linux user authentication with Windows Active Directory (AD) using the System Security Services Daemon (SSSD)
 
+Ansible
+
+Splunk
