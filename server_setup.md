@@ -51,6 +51,9 @@ getent group
 systemctl status crond
 ```
 - Systemd Timer
+```
+systemctl list-timers --all
+```
 - AT
 ### :helicopter: Logging
 - Configure syslog | rsyslog
