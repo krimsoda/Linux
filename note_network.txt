@@ -28,6 +28,10 @@ nmcli con mod enps03 connection.interface-name enps03  #Attaching a NetworkManag
 #Connection Name:
 connection: Specifies the name for the new connection.
 
+#Set Dynamic IP Address
+nmcli con mod enps03 ipv4.method auto  #change the addressing to DHCP
+
+
 nmcli type
 
 #Connection Type:
