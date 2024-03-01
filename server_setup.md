@@ -8,5 +8,8 @@
 - Configure & secure
 ### :helicopter:User
 - add multiple users & sudo group
+### :helicopter:Log
+- configure syslog | rsyslog
+- Configure Logrotate
 
 
