@@ -40,6 +40,13 @@ getent shadow
 getent group
 ```
 ### :helicopter: File/Directory Permissions/Access
+### :helicopter: Scheduler
+- Cron
+```
+systemctl status crond.service
+```
+- Systemd Timer
+- AT
 ### :helicopter: Logging
 - Configure syslog | rsyslog
 ```
