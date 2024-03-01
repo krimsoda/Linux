@@ -32,6 +32,8 @@ systemctl status firewalld
 ### :helicopter: SSH
 - Configure & secure
 > /etc/ssh/sshd_config
+
+`PasswordAuthentication no`
 ```
 systemctl status sshd
 ```
