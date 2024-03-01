@@ -20,8 +20,14 @@ nmcli con up enps03
 - Hostname & FQDN
 ### :helicopter: FirewallD
 - Configure FirewallD (allow port & service)
+```
+systemctl status firewalld
+```
 ### :helicopter: SSH
 - Configure & secure
+```
+systemctl status sshd
+```
 ### :helicopter: User
 - add multiple users & sudo group
 ### :helicopter: File/Directory Permissions/Access
