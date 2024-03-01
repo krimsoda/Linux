@@ -1,3 +1,5 @@
+#useradd
+
 check User
 useradd -D #Displays the current default settings for new user accounts.
 
@@ -11,9 +13,6 @@ useradd -m -d /opt/jane jane
 useradd -a
 usermod -aG wheel jorn
 
-
-
-useradd
 useradd - create a new user or update default new user information
 
 OPTIONS
@@ -55,11 +54,7 @@ EXAMPLES
         useradd -i interactive_user
 
 
+#userdel
+userdel [options] username
 
-
-
-
-
-
-userdel
 usermod
