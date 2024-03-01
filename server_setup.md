@@ -42,6 +42,9 @@ getent group
 ### :helicopter: File/Directory Permissions/Access
 ### :helicopter: Logging
 - Configure syslog | rsyslog
+```
+systemctl status rsyslog
+```
 - Configure Logrotate
 ### :helicopter: AuditD
 - Configure AuditD
