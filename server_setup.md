@@ -45,6 +45,9 @@ getent group
 - Configure Logrotate
 ### :helicopter: AuditD
 - Configure AuditD
+```
+systemctl status auditd
+```
 ### :helicopter: SELinux
 - Configure SELinux
 ### :helicopter: Hardening
