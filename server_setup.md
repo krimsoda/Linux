@@ -68,6 +68,9 @@ systemctl status auditd
 ```
 ### :helicopter: SELinux
 - Configure SELinux
+```
+sestatus
+```
 ### :helicopter: Hardening
 - Configure baseline hardening
 - Disable Unnecessary Services & Port
