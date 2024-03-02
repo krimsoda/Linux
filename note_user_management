@@ -58,3 +58,6 @@ EXAMPLES
 userdel [options] username
 
 usermod
+
+#sudo
+sudo -l -U ansible    #test sudo
