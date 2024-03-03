@@ -6,7 +6,8 @@ Config File: /etc/ssh/sshd_config
 Log:/var/log/auth.log 
     lastlog    
     journalctl -u ssh
-
+Path:/root/.ssh
+/home/user/.ssh
 Command:
 ssh remote_username@remote_host #
 
