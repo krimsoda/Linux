@@ -73,3 +73,4 @@ time timeout 2 sudo chmod --help
 visudo
 -/etc/sudoers.d/ansible
 ansible ALL=(ALL) NOPASSWD:ALL
+-usermod -aG wheel ansible
