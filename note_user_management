@@ -72,7 +72,9 @@ sudo --validate
 time timeout 2 sudo chmod --help
 visudo -c
 visudo -cf /tmp/sudoers
-visudo
+visudo -f /etc/sudoers.d/ansible
+    ansible ALL=(ALL) NOPASSWD:ALL
 -/etc/sudoers.d/ansible
-ansible ALL=(ALL) NOPASSWD:ALL
+    ansible ALL=(ALL) NOPASSWD:ALL
 -usermod -aG wheel ansible
+chmod 0440 /etc/sudoers.d/ansible    # The permissions should be set to “0440” (readable by root and not writable by others) to prevent unauthorized modifications. 
