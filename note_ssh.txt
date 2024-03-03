@@ -39,3 +39,8 @@ to the ~/.ssh/authorized_keys file on the remote server.
 ssh-key
 ssh-keygen -t ed25519 -C "ansible"
 ssh-copy-id -i ansible.pub 192.168.0.50
+
+#ssh agent cheat
+eval$(ssh-agent)
+ssh-add
+alias ssha='eval $(ssh-agent) && ssh-add'
