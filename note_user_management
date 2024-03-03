@@ -60,4 +60,13 @@ userdel [options] username
 usermod
 
 #sudo
+```
+ls -l /etc/sudoers
+sudo -nv
+sudo -l
 sudo -l -U ansible    #test sudo
+getent group sudo
+sudo --list chmod
+sudo --list passed
+sudo --validate
+time timeout 2 sudo chmod --help
