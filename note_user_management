@@ -60,7 +60,7 @@ userdel [options] username
 usermod
 
 #sudo
-```
+
 ls -l /etc/sudoers
 sudo -nv
 sudo -l
@@ -71,4 +71,5 @@ sudo --list passed
 sudo --validate
 time timeout 2 sudo chmod --help
 visudo
-```
+-/etc/sudoers.d/ansible
+ansible ALL=(ALL) NOPASSWD:ALL
