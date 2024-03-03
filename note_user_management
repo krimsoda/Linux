@@ -70,3 +70,5 @@ sudo --list chmod
 sudo --list passed
 sudo --validate
 time timeout 2 sudo chmod --help
+visudo
+```
