@@ -70,6 +70,8 @@ sudo --list chmod
 sudo --list passed
 sudo --validate
 time timeout 2 sudo chmod --help
+visudo -c
+visudo -cf /tmp/sudoers
 visudo
 -/etc/sudoers.d/ansible
 ansible ALL=(ALL) NOPASSWD:ALL
