@@ -77,4 +77,5 @@ visudo -f /etc/sudoers.d/ansible
 -/etc/sudoers.d/ansible
     ansible ALL=(ALL) NOPASSWD:ALL
 -usermod -aG wheel ansible
-chmod 0440 /etc/sudoers.d/ansible    # The permissions should be set to “0440” (readable by root and not writable by others) to prevent unauthorized modifications. 
+chmod 0440 /etc/sudoers.d/ansible    # The permissions should be set to “0440” (readable by root and not writable by others) to prevent unauthorized modifications.
+ls -l /etc/sudoers.d/ansible    | stat /etc/sudoers.d/ansible 
