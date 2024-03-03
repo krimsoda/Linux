@@ -37,4 +37,5 @@ The simplest way to add a public key for a specific username is to manually copy
 to the ~/.ssh/authorized_keys file on the remote server.
 
 ssh-key
-ssh-keygen -t ed25519 -C "ansible" 
+ssh-keygen -t ed25519 -C "ansible"
+ssh-copy-id -i ansible.pub 192.168.0.50
