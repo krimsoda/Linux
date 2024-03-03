@@ -44,3 +44,5 @@ ssh-copy-id -i ansible.pub 192.168.0.50
 eval $(ssh-agent)
 ssh-add
 alias ssha='eval $(ssh-agent) && ssh-add'
+vi .bashrc
+           alias ssha='eval $(ssh-agent) && ssh-add'
