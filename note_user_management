@@ -1,5 +1,5 @@
 #add#delete#modifiy#ammend#
-User | Group | File | Folder | Password | Privillage
+User | Group | File | Folder | Password | Privillage | SUDO
 
 #useradd
 
