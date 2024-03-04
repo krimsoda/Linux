@@ -15,6 +15,7 @@ User Passsword
 Add User to group
 usermod -aG <groupname> <username>
 gpasswd -a <groupname> <username>
+
 remove user from group
 gpasswd -d mumbly sudo #remove sudo rights with gpasswd
 deluser <username> <groupname>
