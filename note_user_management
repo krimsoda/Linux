@@ -12,6 +12,8 @@ User Passsword
 -passwd
 -chpasswd
 
+gpasswd -d mumbly sudo #remove sudo rights with gpasswd
+
 
 #useradd
 
