@@ -16,7 +16,7 @@ Add User to group
 usermod -aG <groupname> <username>
 gpasswd -a <username> <groupname> 
 
-remove user from group
+Remove user from group
 gpasswd -d <username> <groupname> #remove sudo rights with gpasswd
 deluser <username> <groupname>
 vi /etc/group      #
