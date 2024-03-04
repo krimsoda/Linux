@@ -17,7 +17,7 @@ usermod -aG <groupname> <username>
 gpasswd -a <groupname> <username>
 
 remove user from group
-gpasswd -d mumbly sudo #remove sudo rights with gpasswd
+gpasswd -d <username> <groupname> #remove sudo rights with gpasswd
 deluser <username> <groupname>
 vi /etc/group      #
 groups <username>      # Verifying 
