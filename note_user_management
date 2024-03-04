@@ -1,6 +1,18 @@
 #add#delete#modifiy#ammend#
 User | Group | File | Folder | Password | Privillage | SUDO
 
+Add User
+-useradd
+Delete User
+-userdel
+-rmuser
+Modify User
+-usermod
+User Passsword
+-passwd
+-chpasswd
+
+
 #useradd
 
 check User
