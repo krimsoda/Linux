@@ -12,6 +12,7 @@ User Passsword
 -passwd
 -chpasswd
 
+remove user from group
 gpasswd -d mumbly sudo #remove sudo rights with gpasswd
 
 
