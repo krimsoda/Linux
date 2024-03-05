@@ -25,6 +25,12 @@ Script:
  Notes
  
  :arrow_right: [Services]
+
+ ### :helicopter: Network
+ 
+ Notes
+ 
+ :arrow_right: [Network]
  
  ### :helicopter: FirewallD
  
