@@ -20,6 +20,7 @@ Script:
  ### :helicopter:File & Folder
  Notes
  ### :helicopter:Vi
+ [Vi](note_Vi_Editor.txt)
  Notes
  ### :helicopter:Troubleshooting
  Notes
