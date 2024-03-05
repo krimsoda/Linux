@@ -43,6 +43,7 @@ Script:
  - Recent Change
  - Configuration Validation
  - Log (Error Pattern)
+ - Dump file
  Notes
  
  ### :helicopter: HomeLab
