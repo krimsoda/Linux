@@ -16,8 +16,6 @@ url = "https://raw.githubusercontent.com/krimsoda/Linux/main/note_misc.txt"
 -O
 url = "https://raw.githubusercontent.com/krimsoda/Linux/main/note_network.txt"
 
-    
-      
 
 -scp
 scp file.txt remote_username@10.10.0.2:/remote/directory  #Copy a Local File to a Remote System 
