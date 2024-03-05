@@ -17,30 +17,35 @@ Script:
 
   :arrow_right:[user_addgroup bulk_sudo](sc_user_addgroup_sudo.sh)
 
- ### :helicopter:File & Folder
+ ### :helicopter: File & Folder
  Notes
 
-### :helicopter:SystemD (Service & Process)
+### :helicopter: SystemD (Service & Process)
  
  Notes
  
  :arrow_right: [Services]
  
- ### :helicopter:FirewallD
+ ### :helicopter: FirewallD
  
  Notes
  
  :arrow_right: [FirewallD]
  
- ### :helicopter:Vi
+ ### :helicopter: Vi
  
  Notes
  
  :arrow_right: [Vi](note_Vi_Editor.txt)
 
- ### :helicopter:Troubleshooting
+ ### :helicopter: Troubleshooting
+ Method
+ - Recent Change
+ - Configuration Validation
+ - Log (Error Pattern)
  Notes
- ### :helicopter:HomeLab
+ 
+ ### :helicopter: HomeLab
  Linux
 - Linux load balancing
 - Integrating Linux user authentication with Windows Active Directory (AD) using the System Security Services Daemon (SSSD)
