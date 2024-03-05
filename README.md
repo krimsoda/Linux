@@ -19,6 +19,19 @@ Script:
 
  ### :helicopter:File & Folder
  Notes
+
+### :helicopter:SystemD (Service & Process)
+ 
+ Notes
+ 
+ :arrow_right: [Services]
+ 
+ ### :helicopter:FirewallD
+ 
+ Notes
+ 
+ :arrow_right: [FirewallD]
+ 
  ### :helicopter:Vi
  
  Notes
