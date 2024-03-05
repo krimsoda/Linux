@@ -20,8 +20,11 @@ Script:
  ### :helicopter:File & Folder
  Notes
  ### :helicopter:Vi
- [Vi](note_Vi_Editor.txt)
+ 
  Notes
+ 
+ :arrow_right: [Vi](note_Vi_Editor.txt)
+
  ### :helicopter:Troubleshooting
  Notes
  ### :helicopter:HomeLab
