@@ -44,6 +44,7 @@ Script:
  - Configuration Validation
  - Log (Error Pattern)
  - Dump file
+ - Compare your problem system with a working system running the same distribution and version
  Notes
  
  ### :helicopter: HomeLab
