@@ -22,6 +22,14 @@ deluser <username> <groupname>
 vi /etc/group      #
 groups <username>      # Verifying 
 
+#Utilities
+lslogins      #display information about available users in the system
+who @ w
+chage      #change the user password expiry information
+last      #listing of users who logged into the system
+gpasswd      #administrates /etc/group and /etc/gshadow files
+
+
 
 
 #useradd
