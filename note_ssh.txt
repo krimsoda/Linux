@@ -8,6 +8,26 @@ Log:/var/log/auth.log
     journalctl -u ssh
 Path:/root/.ssh
 /home/user/.ssh
+
+ssh-keygen - creates a key pair for public key authentication
+ssh-copy-id - configures a public key as authorized on a server
+ssh-agent - agent to hold private key for single sign-on
+ssh-add - tool to add a key to the agent
+scp - file transfer client with RCP-like command interface
+sftp - file transfer client with FTP-like command interface
+sshd - OpenSSH server
+
+#Create SSH Keys
+ssh-keygen -t rsa
+Once you have generated the keys, they are stored in the /user/home/.ssh/ directory with the following permissions:
+    Private key - 600
+    Public key - 644
+
+
+
+#Transfer Your Public Key to the Server
+ssh-copy-id remote_host
+
 Command:
 ssh remote_username@remote_host #
 
