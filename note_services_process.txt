@@ -1,0 +1,20 @@
+systemctl status service-name #option
+systemctl enable service-name #option
+
+Common service-name
+-ssh
+-rsync
+-network
+-firewallD
+-SELinux
+-syslog | rsyslog
+
+
+
+
+#Systemd Timers
+/etc/systemd/system
+  systemd-analyze calendar 2030-06-17
+  systemctl list-units -t timer
+  systemctl list-unit-files --all -t timer
+
