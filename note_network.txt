@@ -35,6 +35,8 @@ nmcli con mod enps03 ipv4.method manual  #change the addressing from DHCP to sta
 nmcli con mod enps03 connection.interface-name enps03  #Attaching a Connection to a specific device
 nmcli con up enps03  #To save the changes
 
+#Delete connection
+nmcli con delete [connection_name]
 
 #Set Dynamic IP Address (DHCP)
 nmcli con mod enps03 ipv4.method auto  #change the addressing to DHCP
