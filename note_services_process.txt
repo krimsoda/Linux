@@ -1,7 +1,7 @@
 systemctl status service-name #option
 systemctl enable service-name #option
 
-Common service-name
+#Common service-name
 -ssh
 -rsync
 -network
@@ -9,7 +9,7 @@ Common service-name
 -SELinux
 -syslog | rsyslog
 
-
+#process
 
 
 #Systemd Timers
