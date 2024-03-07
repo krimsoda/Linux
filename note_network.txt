@@ -1,6 +1,7 @@
 Useful Guide
 package:yum install NetworkManager
 service: NetworkManager
+
 ip a
 nmcli
 Device  #network card
@@ -30,7 +31,7 @@ nmcli con mod enps03 ipv4.method manual  #change the addressing from DHCP to sta
 nmcli con up enps03  #To save the changes
 nmcli con mod enps03 connection.interface-name enps03  #Attaching a Connection to a specific device
 
-#Set Dynamic IP Address
+#Set Dynamic IP Address (DHCP)
 nmcli con mod enps03 ipv4.method auto  #change the addressing to DHCP
 
 #Restart service
