@@ -1,5 +1,6 @@
 Useful Guide
-
+package:yum install NetworkManager
+service: NetworkManager
 ip a
 nmcli
 Device  #network card
