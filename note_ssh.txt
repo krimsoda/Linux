@@ -66,3 +66,10 @@ ssh-add
 alias ssha='eval $(ssh-agent) && ssh-add'
 vi .bashrc
            alias ssha='eval $(ssh-agent) && ssh-add'
+
+
+#ssh config file
+~/.ssh/config
+
+To run
+ssh debian
