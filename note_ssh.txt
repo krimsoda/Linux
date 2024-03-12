@@ -70,6 +70,7 @@ vi .bashrc
 
 #ssh config file
 ~/.ssh/config
+chmod 600 ~/.ssh/config           #Give read and write permissions to the current user only
 
 To run
 ssh debian
