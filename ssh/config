@@ -1,0 +1,21 @@
+Host debian
+    Hostname 192.168.0.80
+    User ansible
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+
+Host ubuntu
+    HostName 192.168.0.90
+
+Host freebsd
+    HostName 192.168.0.50
+
+Host *ell
+    user splunk
+
+Host * !martell
+    LogLevel INFO
+
+Host *
+    User root
+    Compression yes
