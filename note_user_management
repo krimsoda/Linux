@@ -171,7 +171,7 @@ sudo -l
 sudo -l -U ansible    #test sudo
 getent group sudo
 sudo --list chmod
-sudo --list passed
+sudo --list passwd
 sudo --validate
 time timeout 2 sudo chmod --help
 visudo -c
@@ -183,3 +183,25 @@ visudo -f /etc/sudoers.d/ansible
 -usermod -aG wheel ansible
 chmod 0440 /etc/sudoers.d/ansible    # The permissions should be set to “0440” (readable by root and not writable by others) to prevent unauthorized modifications.
 ls -l /etc/sudoers.d/ansible    | stat /etc/sudoers.d/ansible 
+
+
+sudo
+
+sudo -s: Starts a new shell as the superuser.
+sudo -i: Starts a new login shell as the superuser. It's similar to sudo -s, but with environment variables set as if you logged in directly as the superuser.
+sudo -u username command: Executes the specified command with the privileges of the specified user.
+sudo -l: Lists the permissions granted to you by sudo.
+sudo -v: Updates the user's cached credentials, without executing a command.
+sudo -k: Invalidates the user's cached credentials.
+sudo -u username -i: Starts a new login shell as the specified user.
+sudo -u username -s: Starts a new shell as the specified user.
+sudo -b command: Runs the specified command in the background with superuser privileges.
+sudo -A: Used in conjunction with a graphical sudo front-end to request a password via a GUI dialog.
+sudo -H: Sets the HOME environment variable to the home directory of the target user.
+sudo -E: Preserves the user's environment variables when running the command with sudo.
+sudo -P: Preserves the value of the PATH environment variable when running the command with sudo.
+sudo -S: Reads the password from standard input instead of a terminal device.
+sudo -C: Checks the configuration file for syntax errors without running any commands.
+sudo -V: Prints the sudo version and configuration information.
+sudo -s -u username: Starts a shell with superuser privileges and switches to the specified user's shell.
+sudo -l -U username: Lists the permissions granted to the specified user by sudo.
