@@ -7,3 +7,5 @@ MLS can be very complicated and is typically only used by government organizatio
 
 
 /etc/selinux/config and reboot, or run setenforce 1
+
+ls -Z /var
