@@ -57,6 +57,11 @@ Script:
  - Check to see whether the problem is reproducible
  Notes
  
+ ### :helicopter: RHEL
+ -  Subscription
+ -  Insights
+ -  Satellite
+ 
  ### :helicopter: HomeLab
  Linux
 - Linux load balancing
