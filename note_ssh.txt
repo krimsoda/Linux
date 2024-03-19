@@ -2,7 +2,8 @@ Package: openssh-client openssh-server
 Service: sshd
 Port: 22
 Config File: /etc/ssh/sshd_config
-           :  ~/.ssh/id_rsa.pub and ~/.ssh/id_rsa
+           : ~/.ssh/id_rsa.pub and ~/.ssh/id_rsa
+           : ~/.ssh/authorized_keys
 Log:/var/log/auth.log 
     lastlog    
     journalctl -u ssh
