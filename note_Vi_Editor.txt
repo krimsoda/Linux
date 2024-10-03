@@ -12,7 +12,7 @@ If you're in visual mode and want to return to command mode, pressing `ESC` will
 
 | Command          | Description                               |
 |------------------|-------------------------------------------|
-| `h` or `←`       | Move cursor left                          |
+| `h` or `←`      | Move cursor left                          |
 | `j` or `↓`       | Move cursor down                          |
 | `k` or `↑`       | Move cursor up                            |
 | `l` or `→`       | Move cursor right                         |
