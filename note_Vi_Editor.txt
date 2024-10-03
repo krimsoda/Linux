@@ -15,7 +15,7 @@ If you're in visual mode and want to return to command mode, pressing `ESC` will
 | `h` or `←`      | Move cursor left                          |
 | `j` or `↓`       | Move cursor down                          |
 | `k` or `↑`       | Move cursor up                            |
-| `l` or `→`       | Move cursor right                         |
+| `l` or `→`      | Move cursor right                         |
 | `0`              | Move to the beginning of the line         |
 | `$`              | Move to the end of the line               |
 | `gg`             | Move to the beginning of the file         |
