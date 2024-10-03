@@ -51,7 +51,7 @@ Script:
  Method
  - Recent Change
  - Configuration Validation
- - Log (Error Pattern)
+ - Log File (Error Pattern)
  - Dump file
  - Compare your problem system with a working system running the same distribution and version
  - Check to see whether the problem is reproducible
