@@ -40,6 +40,10 @@ Script:
  Notes
  
  :arrow_right: [FirewallD]
+
+ ### :helicopter: Linux Logs
+
+ Notes
  
  ### :helicopter: Vi
  
