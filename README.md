@@ -21,7 +21,13 @@ Script:
   :arrow_right:[user_addgroup bulk_sudo](sc_user_addgroup_sudo.sh)
 
  ### :helicopter: File & Folder | Permission
- Notes
+Notes
+
+ ### :helicopter: Performance
+Notes
+- top
+- nice
+- renice
 
 ### :helicopter: SystemD (Service & Process)
  
