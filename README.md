@@ -10,7 +10,7 @@ notes
 - sudo	 #Executing commands as another user. Group = [wheel | sudo]
 - newgrp	#Switching user groups
 
- :arrow_right:[user](https://github.com/krimsoda/Linux/blob/582bc744a9b05090d81dc4382616fe2ff6be489e/note_user_management)
+ :arrow_right:[user](note_user_management)
 
 Script:
 
