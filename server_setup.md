@@ -24,6 +24,10 @@ hostname
 ```
 hostnamectl set-hostname server1.example.com
 ```
+ Notes
+ 
+ :arrow_right: [Network](note_network.txt)
+ 
 ### :helicopter: FirewallD
 - Configure FirewallD (allow port & service)
 ```
