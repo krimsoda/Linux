@@ -1,1 +1,37 @@
 file_folder_permission.txt
+ File Permissions: 
+ ┌──────────────┬────────────────────────────────────────┐
+ │ Permission   │ Description                            │
+ ├──────────────┼────────────────────────────────────────┤
+ │ r (read)     │ Allows viewing/reading the file/folder │
+ │ w (write)    │ Allows modifying the file/folder       │
+ │ x (execute)  │ Allows executing the file or entering  │
+ │              │ the folder                             │
+ └──────────────┴────────────────────────────────────────┘
+
+ Permission Structure: 
+ ┌──────────────┬───────────────────────────────────────────────────────────┐
+ │ rwxrwxrwx    │ Owner | Group | Others                                    │
+ ├──────────────┼───────────────────────────────────────────────────────────┤
+ │ r--r--r--    │ Owner (read), Group (read), Others (read)                 │
+ │ rwxr-xr--    │ Owner (read, write, execute), Group (read, execute),      │
+ │              │ Others (read)                                             │
+ └──────────────┴───────────────────────────────────────────────────────────┘
+
+ Numeric Permissions:
+ ┌────┬────────────────────────────┐
+ │ 7  │ Read + Write + Execute (rwx)│
+ │ 6  │ Read + Write (rw-)          │
+ │ 5  │ Read + Execute (r-x)        │
+ │ 4  │ Read only (r--)             │
+ │ 3  │ Write + Execute (-wx)       │
+ │ 2  │ Write only (-w-)            │
+ │ 1  │ Execute only (--x)          │
+ │ 0  │ No permission (---)         │
+ └────┴────────────────────────────┘
+
+ Example: 
+ ┌────────────┬───────────────────────────────────────────────────────┐
+ │ drwxr-xr-- │ Directory, owner has all permissions, group can read   │
+ │            │ and execute, others can only read                     │
+ └────────────┴───────────────────────────────────────────────────────┘
