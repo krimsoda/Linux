@@ -1,1 +1,11 @@
-
+•	Gathering System Information
+•	General System Info
+•	Disk That Exists and Filesystems Mounted
+•	System Usage Stats
+  o	iostat
+•	Memory
+•	CPU
+•	Security
+  o	Logs
+  o	Open Port
+  o	Process
