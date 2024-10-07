@@ -14,3 +14,7 @@ Troubleshooting Methodology
   -cpu
   -memory
 -network
+-logs
+-Security
+  -ports
+  -process
