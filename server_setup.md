@@ -29,6 +29,11 @@ hostnamectl set-hostname server1.example.com
 ```
 systemctl status firewalld
 ```
+
+ Notes
+ 
+ :arrow_right: [FirewallD](note_firewalld.txt)
+
 ### :helicopter: SSH
 - Configure & secure
 > /etc/ssh/sshd_config
