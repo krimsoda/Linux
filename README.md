@@ -72,7 +72,9 @@ Notes
  - Common troubleshooting
  
  Notes
-:arrow_right: [Notes](
+
+:arrow_right:[notes](note_troubleshooting)
+
  ### :helicopter: Productivity
  - bash-completion
  ### :helicopter: RHEL
