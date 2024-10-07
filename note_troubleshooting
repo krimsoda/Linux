@@ -1,4 +1,13 @@
-troubleshooting
+Troubleshooting Methodology
+-Identify the problem and it’s symptoms
+-Establish a theory of probably cause
+-Test your theory to determine the cause
+-Establish a plan for resolving the problem
+-Implement the solution or escalate the problem
+-Verify functionality and implement preventative measures
+-Document findings, actions, and outcomes
+
+=====================================
 -user
 -file folder permission
 -performance
