@@ -35,3 +35,33 @@ File Permissions:
  │ drwxr-xr-- │ Directory, owner has all permissions, group can read   │
  │            │ and execute, others can only read                     │
  └────────────┴───────────────────────────────────────────────────────┘
+
+
+=======================================================================
+  User     Group    Others
++--------+--------+--------+
+| rwx    | r-x    | r--    |
++--------+--------+--------+
+
+Explanation:
+
+  rwx   = read (r), write (w), execute (x) for the owner (User)
+  r-x   = read (r), no write (-), execute (x) for the group (Group)
+  r--   = read (r), no write (-), no execute (-) for others (Others)
+
+Permission Structure:
+
+drwxr-xr-x   1 owner   group   size  date   filename
+ |  | | | |   
+ |  | | | +-----> Permissions for Others
+ |  | | +-------> Permissions for Group
+ |  | +---------> Permissions for User (Owner)
+ |  +-----------> Directory flag ('d' indicates it's a directory)
+ +--------------> Type of file (directory 'd', regular file '-', etc.)
+
+Permissions Key:
+ r = read
+ w = write
+ x = execute
+ - = no permission
+
