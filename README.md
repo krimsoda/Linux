@@ -58,6 +58,8 @@ Notes
  ### :helicopter: Linux Logs
 
  Notes
+
+:arrow_right: [log](note_log.txt)
  
  ### :helicopter: Vi
  
