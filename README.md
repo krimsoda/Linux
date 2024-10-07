@@ -24,7 +24,7 @@ Script:
 
 Notes
 
-:arrow_right:[file_ & folder permission](note_file_folder_permission.txt)
+:arrow_right:[file & folder permission](note_file_folder_permission.txt)
 
  ### :helicopter: Performance
 Notes
