@@ -85,3 +85,5 @@ Notes
 - Linux load balancing
 - Integrating Linux user authentication with Windows Active Directory (AD) using the System Security Services Daemon (SSSD)
 - Load balancing
+- SLURM (Simple Linux Utility for Resource Management)
+- Configure NFS Shares
