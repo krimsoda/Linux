@@ -1,4 +1,4 @@
-# Server Setup
+# Basic Server Setup
 
 ### :helicopter: System
 - Update & Upgrade
