@@ -21,7 +21,10 @@ Script:
   :arrow_right:[user_addgroup bulk_sudo](sc_user_addgroup_sudo.sh)
 
  ### :helicopter: File & Folder | Permission
+
 Notes
+
+:arrow_right:[file_ & folder permission](note_file_folder_permission.txt)
 
  ### :helicopter: Performance
 Notes
