@@ -70,8 +70,9 @@ Notes
  - Compare your problem system with a working system running the same distribution and version
  - Check to see whether the problem is reproducible
  - Common troubleshooting
+ 
  Notes
-
+:arrow_right: [Notes](
  ### :helicopter: Productivity
  - bash-completion
  ### :helicopter: RHEL
