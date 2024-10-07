@@ -39,6 +39,7 @@ Notes
  
  Notes
  
+ :arrow_right: [Network](note_network.txt)
 
  
  ### :helicopter: FirewallD
