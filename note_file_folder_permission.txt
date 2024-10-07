@@ -1,5 +1,5 @@
-file_folder_permission.txt
- File Permissions: 
+
+File Permissions: 
  ┌──────────────┬────────────────────────────────────────┐
  │ Permission   │ Description                            │
  ├──────────────┼────────────────────────────────────────┤
