@@ -58,6 +58,9 @@ getent shadow
 getent group
 ```
 ### :helicopter: File/Directory Permissions/Access
+
+:arrow_right: [FirewallD](note_file_folder_permission.txt)
+
 ### :helicopter: Scheduler
 - Cron
 ```
