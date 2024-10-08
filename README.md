@@ -67,6 +67,13 @@ Notes
  
  :arrow_right: [Vi](note_Vi_Editor.txt)
 
+ ### :helicopter: Port Number
+ 
+ Notes
+ 
+ :arrow_right: [Ports Number](note_ports_number.txt)
+
+
  ### :helicopter: Troubleshooting
  Method
  - Recent Change
