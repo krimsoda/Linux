@@ -16,6 +16,7 @@ Troubleshooting Methodology
   -memory
 -network
 -logs
+	-event viewer
 -Security
   -ports
   -process
