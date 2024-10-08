@@ -104,3 +104,7 @@ Notes
 - Load balancing
 - SLURM (Simple Linux Utility for Resource Management)
 - Configure NFS Shares
+
+
+### :helicopter: References
+  - https://www.certdepot.net
