@@ -29,7 +29,7 @@ Networking
 -Ping dns server (nslookup | dig)
 -ping dhcp server
 -traceroute | tracert
--check and renew connection / Adapter
+-check and renew connection / Adapter | flush DNS
 -check firewall allowing ping protocol
 -Traffic analyzer (tcpdump | wireshark | tshark)
   *DNS
