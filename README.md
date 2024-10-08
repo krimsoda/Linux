@@ -108,3 +108,4 @@ Notes
 
 ### :helicopter: References
   - https://www.certdepot.net
+  - https://www.tecmint.com
