@@ -10,6 +10,7 @@ Troubleshooting Methodology
 =====================================
 -user
 -file folder permission
+  -check current permission *ls -lrt
 -performance
   -cpu
   -memory
