@@ -35,3 +35,7 @@ CyberArk
 -AD (User Status)
 -CyberArk console (User status) in Vault
 -Password reconsile
+
+HTTP Error
+-Server side
+-Client side
