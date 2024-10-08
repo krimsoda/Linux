@@ -32,5 +32,5 @@ Networking
 
 CyberArk
 -AD (User Status)
--CyberArk console (User status)
+-CyberArk console (User status) in Vault
 -Password reconsile
