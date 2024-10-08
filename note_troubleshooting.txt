@@ -18,3 +18,9 @@ Troubleshooting Methodology
 -Security
   -ports
   -process
+-Rebuild system
+
+CrberArk
+-AD (User Status)
+-CyberArk console (User status)
+-Password reconsile
