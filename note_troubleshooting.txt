@@ -27,7 +27,7 @@ Networking
 -Ping dns server (nslookup | dig)
 -ping dhcp server
 -traceroute
--renew connection / Adapter
+-check and renew connection / Adapter
 -Traffic analyzer (tcpdmp | wireshark | tshark)
   *DNS
 
