@@ -20,7 +20,16 @@ Troubleshooting Methodology
   -process
 -Rebuild system
 
-CrberArk
+Networking
+-Ping machine using ip address & FQDN
+-Ping defaut router & gateway
+-Ping dns server
+-ping dhcp server
+-renew connection / Adapter
+-Traffic analyzer (tcpdmp | wireshark | tshark)
+  *DNS
+
+CyberArk
 -AD (User Status)
 -CyberArk console (User status)
 -Password reconsile
