@@ -23,13 +23,14 @@ Troubleshooting Methodology
 -Rebuild system
 
 Networking
+-check the ip address (origin ip | virtual ip | teaming & bonding)
 -Ping machine using ip address & FQDN
 -Ping defaut router & gateway
 -Ping dns server (nslookup | dig)
 -ping dhcp server
--traceroute
+-traceroute | tracert
 -check and renew connection / Adapter
--Traffic analyzer (tcpdmp | wireshark | tshark)
+-Traffic analyzer (tcpdump | wireshark | tshark)
   *DNS
 
 CyberArk
