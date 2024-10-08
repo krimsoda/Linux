@@ -24,7 +24,7 @@ Troubleshooting Methodology
 Networking
 -Ping machine using ip address & FQDN
 -Ping defaut router & gateway
--Ping dns server
+-Ping dns server (nslookup | dig)
 -ping dhcp server
 -traceroute
 -renew connection / Adapter
