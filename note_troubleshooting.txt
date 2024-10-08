@@ -30,6 +30,7 @@ Networking
 -ping dhcp server
 -traceroute | tracert
 -check and renew connection / Adapter
+-check firewall allowing ping protocol
 -Traffic analyzer (tcpdump | wireshark | tshark)
   *DNS
 
