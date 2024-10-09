@@ -117,6 +117,7 @@ Notes
   - https://www.cisecurity.org/cis-benchmarks
   - https://www.cyberciti.biz/
   - https://killercoda.com
+  - https://linuxsecurity.com/
 
 
  ### :helicopter: Linux Security
