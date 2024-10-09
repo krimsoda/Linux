@@ -77,11 +77,12 @@ Notes
 
  ### :helicopter: Troubleshooting
  Method
- - Recent Change
+ - Recent Change (Narrow Down the Issue)
+ - Symptom | Error Massage
  - Configuration Validation
- - Log File (Error Pattern)
+ - Log File (Error Pattern | Timing)
  - Dump file
- - Compare problem system with a working system running the same distribution and version
+ - Compare / Replicate / Simulate a problem with a working system that running the same distribution and version
  - Check to see whether the problem is reproducible
  - Common troubleshooting
  
