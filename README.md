@@ -113,3 +113,5 @@ Notes
   - https://www.geeksforgeeks.org
   - https://www.javatpoint.com
   - https://linuxjourney.com
+  - https://www.open-scap.org/
+  - https://www.cisecurity.org/cis-benchmarks
