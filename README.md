@@ -102,7 +102,7 @@ Notes
 - Linux load balancing
 - Integrating Linux user authentication with Windows Active Directory (AD) using the System Security Services Daemon (SSSD)
 - Load balancing
-- SLURM (Simple Linux Utility for Resource Management)
+- [SLURM (Simple Linux Utility for Resource Management)](HomeLab/homelab-SLURM.md)
 - Configure NFS Shares
 - :arrow_right:[Basic Web Server - Apache](HomeLab/homelab-webserver.md)
 
