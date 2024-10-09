@@ -104,7 +104,7 @@ Notes
 - Load balancing
 - [SLURM (Simple Linux Utility for Resource Management)](HomeLab/homelab-SLURM.md)
 - Configure NFS Shares
-- :arrow_right:[Basic Web Server - Apache](HomeLab/homelab-webserver.md)
+- [Basic Web Server - Apache](HomeLab/homelab-webserver.md)
 
 
 ### :helicopter: References
