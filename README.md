@@ -115,3 +115,12 @@ Notes
   - https://linuxjourney.com
   - https://www.open-scap.org/
   - https://www.cisecurity.org/cis-benchmarks
+  - https://www.cyberciti.biz/
+  - https://killercoda.com
+
+
+ ### :helicopter: Linux Security
+ - Hardening
+ - Vulnerability Scanning and Patching
+ - Baseline, Guide and Best Practice
+ - 
