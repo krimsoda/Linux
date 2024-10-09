@@ -123,4 +123,3 @@ Notes
  - Hardening
  - Vulnerability Scanning and Patching
  - Baseline, Guide and Best Practice
- - 
