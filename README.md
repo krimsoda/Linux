@@ -129,4 +129,6 @@ Notes
  ### :helicopter: Linux Security
  - Hardening
  - Vulnerability Scanning and Patching
+    - Security Technical Implementation Guides (STIGs) Viewer
+    - Security Content Automation Protocol (SCAP) Compliance Checker
  - Baseline, Guide and Best Practice
