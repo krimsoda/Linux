@@ -1,2 +1,2 @@
 homelab - webserver
-- virtual host 
+- virtual host
