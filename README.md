@@ -105,8 +105,9 @@ Notes
  ### :helicopter: HomeLab
  Linux
 - Linux load balancing
+    - network interface card (NIC) bonding
+    - services to HTTP and TCP-based services
 - Integrating Linux user authentication with Windows Active Directory (AD) using the System Security Services Daemon (SSSD)
-- Load balancing
 - [SLURM (Simple Linux Utility for Resource Management)](HomeLab/homelab-SLURM.md)
 - Configure NFS Shares
 - [Basic Web Server - Apache](HomeLab/homelab-webserver.md)
