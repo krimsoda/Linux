@@ -77,6 +77,7 @@ Notes
 
  ### :helicopter: Troubleshooting
  Method
+ 
  - Recent Change (Narrow Down the Issue)
  - Symptom | Error Massage
  - Log File (Error Pattern | Timing)
@@ -85,7 +86,10 @@ Notes
  - Compare / Replicate / Simulate a problem with a working system that running the same distribution and version
  - Check to see whether the problem is reproducible
  - Common troubleshooting
- 
+ - Symptom, Diagnosis, Solution
+ - Document findings, actions, and outcomes
+
+
  Notes
 
 :arrow_right:[notes](note_troubleshooting.txt)
