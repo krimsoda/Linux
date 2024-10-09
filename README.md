@@ -111,3 +111,4 @@ Notes
   - https://www.tecmint.com
   - https://www.geeksforgeeks.org
   - https://www.javatpoint.com
+  - https://linuxjourney.com
