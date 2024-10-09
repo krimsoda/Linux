@@ -110,3 +110,4 @@ Notes
   - https://www.certdepot.net
   - https://www.tecmint.com
   - https://www.geeksforgeeks.org
+  - https://www.javatpoint.com
