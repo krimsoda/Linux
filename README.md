@@ -61,6 +61,16 @@ Notes
  Notes
 
 :arrow_right: [log](note_log.txt)
+
+- Keywords
+  - Date & Time
+  - Activity
+  - Errors, warnings, and critical alerts
+  - Service and application failures
+  - Security-related incidents (failed logins, suspicious user activity)
+  - Performance bottlenecks or memory/disk-related problems
+  - Unusual network activity (e.g., port scans, blocked IPs)
+  - Hardware malfunctions (disk, CPU, RAM)
  
  ### :helicopter: Vi
  
