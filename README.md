@@ -138,7 +138,12 @@ Notes
 
 
  ### :helicopter: Linux Security
- - Hardening
+ - Industry Standard (General)
+   - CIS Benchmark (Center for Internet Security)
+   - STIG Standard (Security Technical Implementation Guide)
+     -  Federal Information Processing Standard (FIPS)
+     -  SELinux
+ -  Hardening
  - Vulnerability Scanning and Patching
     - Security Technical Implementation Guides (STIGs) Viewer
     - Security Content Automation Protocol (SCAP) Compliance Checker
