@@ -18,3 +18,5 @@ systemctl enable service-name #option
   systemctl list-units -t timer
   systemctl list-unit-files --all -t timer
 
+#Find a port and service
+grep ssh /etc/service
