@@ -4,13 +4,14 @@
 
 ## Linux # System # Management # Configuration # Security # 
 
-### :helicopter:Advanced Linux Commands
+### :helicopter:Commands
 - ls
 - Find & exec
 - grep
 - awk
 - sed
 - ls
+- Advanced Linux Commands
 
 ### :helicopter:User Management
 notes
