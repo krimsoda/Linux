@@ -7,7 +7,7 @@
 ### :helicopter:Commands
 - ls
 - Find & exec
-- grep
+- grep | sort | uniq | xargs 
 - awk
 - sed
 - ls
