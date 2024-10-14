@@ -5,7 +5,12 @@
 ## Linux # System # Management # Configuration # Security # 
 
 ### :helicopter:Command
+- ls
 - Find & exec
+- grep
+- awk
+- sed
+- ls
 
 ### :helicopter:User Management
 notes
