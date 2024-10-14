@@ -4,7 +4,7 @@
 
 ## Linux # System # Management # Configuration # Security # 
 
-### :helicopter:Command
+### :helicopter:Advanced Linux Commands
 - ls
 - Find & exec
 - grep
