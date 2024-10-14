@@ -4,6 +4,9 @@
 
 ## Linux # System # Management # Configuration # Security # 
 
+### :helicopter:Command
+- Find & exec
+
 ### :helicopter:User Management
 notes
 - su	 #Switching users	
