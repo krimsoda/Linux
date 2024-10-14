@@ -28,9 +28,17 @@ Notes
 
  ### :helicopter: Performance
 Notes
-- top
-- nice
-- renice
+- CPU
+- Memory
+- Disk I/O
+- Network
+- Process
+- System Performance
+- File System and Disk
+- Kernel and System Tracing
+- Performance Profiling
+- Benchmarking
+
 
 ### :helicopter: SystemD (Service & Process)
  
