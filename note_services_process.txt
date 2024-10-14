@@ -24,3 +24,5 @@ systemctl enable service-name #option
 Service and Ports
 #Find a port and service
 grep ssh /etc/service
+
+echo $$ is a special variable that holds the process ID (PID) of the currently running shell or script. When you use the command echo $$, it simply outputs the PID of the shell in which the command is executed.
