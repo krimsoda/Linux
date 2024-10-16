@@ -170,3 +170,5 @@ Notes
  - Authentication: Identity and access management (IAM) & Privileged Access Management (PAM)
    - Centralized Authentication
    - Decentralized Authentication (Local)
+ - Linux Audit Framework
+  - AuditD 
