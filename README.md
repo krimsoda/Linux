@@ -167,3 +167,6 @@ Notes
     - Security Content Automation Protocol (SCAP) Compliance Checker
  - Baseline, Guide and Best Practice
  - Risk Compliance
+ - Authentication (Identity and access management (IAM))
+   - Centralized Authentication
+   - Decentralized Authentication (Local)
