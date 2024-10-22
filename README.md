@@ -168,7 +168,7 @@ Notes
  - Baseline, Guide and Best Practice
  - Risk Compliance
  - Authentication: Identity and access management (IAM) & Privileged Access Management (PAM)
-   - Centralized Authentication
-   - Decentralized Authentication (Local)
+   - Centralized Authentication (LDAP, Active Directory)
+   - Decentralized Authentication (local user accounts)
  - Linux Audit Framework
    - AuditD 
