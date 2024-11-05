@@ -30,22 +30,23 @@ vi /etc/group      #
 groups <username>      # Verifying 
 
 #Utilities
-lslogins      #display information about available users in the system
-who @ w
-chage      #change the user password expiry information
-last      #listing of users who logged into the system
-gpasswd      #administrates /etc/group and /etc/gshadow files
+
+      lslogins      #display information about available users in the system
+      who @ w
+      chage      #change the user password expiry information
+      last      #listing of users who logged into the system
+      gpasswd      #administrates /etc/group and /etc/gshadow files
 
 #useradd
-
+      
 check User
-useradd -D #Displays the current default settings for new user accounts.
 
-getent passwd #will display all entries in the password database (/etc/passwd).Get entries
-getent shadow
-getent group #will display all entries in the group database (/etc/group).
-getent hosts example.com will display the IP address(es) associated with the hostname "example.com" from the hosts database (/etc/hosts or DNS).
-getent services ssh will display the port(s) associated with the SSH service from the services database (/etc/services).
+      useradd -D #Displays the current default settings for new user accounts.
+      getent passwd #will display all entries in the password database (/etc/passwd).Get entries
+      getent shadow
+      getent group #will display all entries in the group database (/etc/group).
+      getent hosts example.com will display the IP address(es) associated with the hostname "example.com" from the hosts database (/etc/hosts or DNS).
+      getent services ssh will display the port(s) associated with the SSH service from the services database (/etc/services).
 
 useradd -m -d /opt/jane jane
 useradd -a
@@ -114,47 +115,48 @@ EXAMPLES
 
 #usermod
 
-Options:
-  -b, --badname                 allow bad names
-  -c, --comment COMMENT         new value of the GECOS field
-  -d, --home HOME_DIR           new home directory for the user account
-  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
-  -f, --inactive INACTIVE       set password inactive after expiration
+      Options:
+        -b, --badname                 allow bad names
+        -c, --comment COMMENT         new value of the GECOS field
+        -d, --home HOME_DIR           new home directory for the user account
+        -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+        -f, --inactive INACTIVE       set password inactive after expiration
                                 to INACTIVE
-  -g, --gid GROUP               force use GROUP as new primary group
-  -G, --groups GROUPS           new list of supplementary GROUPS
-  -a, --append                  append the user to the supplemental GROUPS
-                                mentioned by the -G option without removing
-                                the user from other groups
-  -h, --help                    display this help message and exit
-  -l, --login NEW_LOGIN         new value of the login name
-  -L, --lock                    lock the user account
-  -m, --move-home               move contents of the home directory to the
-                                new location (use only with -d)
-  -o, --non-unique              allow using duplicate (non-unique) UID
-  -p, --password PASSWORD       use encrypted password for the new password
-  -R, --root CHROOT_DIR         directory to chroot into
-  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
-  -s, --shell SHELL             new login shell for the user account
-  -u, --uid UID                 new UID for the user account
-  -U, --unlock                  unlock the user account
-  -v, --add-subuids FIRST-LAST  add range of subordinate uids
-  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
-  -w, --add-subgids FIRST-LAST  add range of subordinate gids
-  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
-  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+        -g, --gid GROUP               force use GROUP as new primary group
+        -G, --groups GROUPS           new list of supplementary GROUPS
+        -a, --append                  append the user to the supplemental GROUPS
+                                      mentioned by the -G option without removing
+                                      the user from other groups
+        -h, --help                    display this help message and exit
+        -l, --login NEW_LOGIN         new value of the login name
+        -L, --lock                    lock the user account
+        -m, --move-home               move contents of the home directory to the
+                                      new location (use only with -d)
+        -o, --non-unique              allow using duplicate (non-unique) UID
+        -p, --password PASSWORD       use encrypted password for the new password
+        -R, --root CHROOT_DIR         directory to chroot into
+        -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+        -s, --shell SHELL             new login shell for the user account
+        -u, --uid UID                 new UID for the user account
+        -U, --unlock                  unlock the user account
+        -v, --add-subuids FIRST-LAST  add range of subordinate uids
+        -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+        -w, --add-subgids FIRST-LAST  add range of subordinate gids
+        -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+        -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
 
 #userdel
 userdel [options] username
-Options:
-  -f, --force                   force some actions that would fail otherwise
-                                e.g. removal of user still logged in
-                                or files, even if not owned by the user
-  -h, --help                    display this help message and exit
-  -r, --remove                  remove home directory and mail spool
-  -R, --root CHROOT_DIR         directory to chroot into
-  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
-  -Z, --selinux-user            remove any SELinux user mapping for the user
+     
+      Options:
+        -f, --force                   force some actions that would fail otherwise
+                                      e.g. removal of user still logged in
+                                      or files, even if not owned by the user
+        -h, --help                    display this help message and exit
+        -r, --remove                  remove home directory and mail spool
+        -R, --root CHROOT_DIR         directory to chroot into
+        -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+        -Z, --selinux-user            remove any SELinux user mapping for the user
 
 
 
@@ -163,9 +165,6 @@ usermod
 #ammend | changes
 chsh -s /bin/bash username    #chsh: Changes the login shell for a user.    
 usermod -p password username    #usermod: Modifies user account properties, including password-related settings.
-
-
-
 
 
 
