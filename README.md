@@ -97,7 +97,16 @@ Notes
   - Performance bottlenecks or memory/disk-related problems
   - Unusual network activity (e.g., port scans, blocked IPs)
   - Hardware malfunctions (disk, CPU, RAM)
- 
+
+ - Parsing Log Files
+    - Tools for Parsing Logs;  There are several command-line tools and programming languages that can help with log parsing:
+      - grep: For searching text in logs.
+      - awk: For pattern scanning and processing.
+      - sed: For stream editing and transformations.
+      - cut: For extracting specific fields.
+      - logwatch: For summarizing log file information.
+      - Python with libraries like pandas, json, and re: For advanced parsing.
+
  ### :helicopter: Vi
  
  Notes
