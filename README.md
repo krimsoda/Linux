@@ -35,6 +35,11 @@ Notes
 
 :arrow_right:[file & folder permission](note_file_folder_permission.txt)
 
+### :helicopter: System Hardware & Device 
+
+Notes
+
+:arrow_right:[system hardware ]
  ### :helicopter: Performance
 Notes
 - CPU
