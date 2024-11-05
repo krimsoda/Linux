@@ -3,6 +3,7 @@ User | Group | File | Folder | Password | Privillage | SUDO
 
 Add User
 -useradd (username, directory, User ID (UID), Group ID (GID),Without a Home Directory
+
 Delete User
 -userdel
 -rmuser
@@ -19,9 +20,13 @@ usermod -aG <groupname> <username>
 gpasswd -a <username> <groupname> 
 
 Remove user from group
+
 gpasswd -d <username> <groupname> #remove sudo rights with gpasswd
+
 deluser <username> <groupname>
+
 vi /etc/group      #
+
 groups <username>      # Verifying 
 
 #Utilities
@@ -30,9 +35,6 @@ who @ w
 chage      #change the user password expiry information
 last      #listing of users who logged into the system
 gpasswd      #administrates /etc/group and /etc/gshadow files
-
-
-
 
 #useradd
 
@@ -87,6 +89,7 @@ Options:
 
 
 EXAMPLES
+   
     1. Create a new user with default settings:
         useradd john
     2. Create a new user with a specific home directory and login shell:
