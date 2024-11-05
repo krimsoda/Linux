@@ -163,7 +163,9 @@ userdel [options] username
 usermod
 
 #ammend | changes
+
 chsh -s /bin/bash username    #chsh: Changes the login shell for a user.    
+
 usermod -p password username    #usermod: Modifies user account properties, including password-related settings.
 
 
