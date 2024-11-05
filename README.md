@@ -18,6 +18,7 @@ notes
 - su	 #Switching users	
 - sudo	 #Executing commands as another user. Group = [wheel | sudo]
 - newgrp	#Switching user groups
+- Add | Delete | Modified
 - Locking and Unlocking User Accounts | Expiring User Accounts | Password Management | Changing User Shell | Viewing User Information | Access Control Lists (ACLs) | Managing User Quotas | User Account Policies
 
  :arrow_right:[user](note_user_management)
