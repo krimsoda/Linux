@@ -106,6 +106,7 @@ Notes
       - cut: For extracting specific fields.
       - logwatch: For summarizing log file information.
       - Python with libraries like pandas, json, and re: For advanced parsing.
+      - Regex (Regular Expressions)
 
  ### :helicopter: Vi
  
