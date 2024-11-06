@@ -22,7 +22,7 @@ notes
 - Locking and Unlocking User Accounts | Expiring User Accounts | User Password Management | Changing User Shell | Viewing User Information | Access Control Lists (ACLs) | Managing User Quotas | User Account Policies
 - Group Management
 
- :arrow_right:[user](note_user_management)
+ :arrow_right:[user](note_user_management.md)
 
 Script:
 
