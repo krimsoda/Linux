@@ -128,7 +128,7 @@ Notes
  
  - Recent Change (Narrow Down the Issue)
  - Symptom | Error Massage
- - Log File (Error Pattern | Timing)
+ - Log File (Error Pattern | Timing) - Parsing Log Files
  - Configuration Validation
  - Dump file
  - Compare / Replicate / Simulate a problem with a working system that running the same distribution and version
