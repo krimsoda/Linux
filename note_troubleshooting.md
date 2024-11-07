@@ -45,22 +45,22 @@ Solution:
 -Rebuild system
 
 Networking
--check the ip address (origin ip | virtual ip | teaming & bonding)
--Ping machine using ip address & FQDN
--Ping defaut router & gateway
--Ping dns server (nslookup | dig)
--ping dhcp server
--traceroute | tracert
--check and renew connection / Adapter | flush DNS
--check firewall allowing ping protocol
--Traffic analyzer (tcpdump | wireshark | tshark)
-  *DNS
+- check the ip address (origin ip | virtual ip | teaming & bonding)
+- Ping machine using ip address & FQDN
+- Ping defaut router & gateway
+- Ping dns server (nslookup | dig)
+- ping dhcp server
+- traceroute | tracert
+- check and renew connection / Adapter | flush DNS
+- check firewall allowing ping protocol
+- Traffic analyzer (tcpdump | wireshark | tshark)
+  * DNS
 
 CyberArk
--AD (User Status)
--CyberArk console (User status) in Vault
--Password reconsile
+- AD (User Status)
+- CyberArk console (User status) in Vault
+- Password reconsile
 
 HTTP Error
--Server side
--Client side
+- Server side
+- Client side
