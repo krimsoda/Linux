@@ -19,7 +19,8 @@ Possibly Caused :
 - DHCP  (local is down)
 - VPN
 - Network Issue / Diffrent segmentation
-- Check the IP (Virtual IP | Origin IP) 
+- Check the IP (Virtual IP | Origin IP)
+- Esclate to spesific team
 
 Solution:
 - Check IP Address
