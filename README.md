@@ -178,6 +178,7 @@ Notes
   - https://killercoda.com
   - https://linuxsecurity.com/
   - https://firecracker-microvm.github.io/
+  - https://www.redhat.com/en/interactive-labs
 
 
  ### :helicopter: Linux Security
