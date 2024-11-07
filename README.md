@@ -4,14 +4,15 @@
 
 ## Linux # System # Management # Configuration # Security # 
 
-### :helicopter:Commands
-- ls
-- Find & exec
-- grep | sort | uniq | xargs 
+### :helicopter:Some basic Linux commands are:
+- cd | ls | mkdir
+- cat
+- grep | sort | uniq | xargs | wc 
 - awk
 - sed
-- ls
+- touch
 - Advanced Linux Commands
+  - Find & exec & xargs 
 
 ### :helicopter:User & Group Management
 notes
