@@ -20,7 +20,7 @@ notes
 - sudo	 #Executing commands as another user. Group = [wheel | sudo]
 - newgrp	#Switching user groups
 - Users Management
-  - Creating Users | Deleting Users |  Modifying User Accounts (Add | Remove user from group)
+  - Creating Users | Modifying User Accounts (Add | Remove user from group) | Reset Users (Default Setting) |  Deleting Users
   - Locking and Unlocking User Accounts | Expiring User Accounts | User Password Management | Changing User Shell | Viewing User Information | Access Control Lists (ACLs) | Managing User Quotas | User Account Policies
 - Group Management
   - Creating Groups | Deleting Groups |  Modifying Groups Accounts (Add | Remove user from group)
