@@ -41,6 +41,10 @@ Notes
 :arrow_right:[file & folder permission](note_file_folder_permission.txt)
 
 ### :helicopter: System Hardware & Device 
+- *check OS version* #cat /etc/*release  
+- *check the kernel version* #uname -a
+- #hostnamectl
+- *kernel parameters* cat /proc/cmdline
 
 Notes
 
