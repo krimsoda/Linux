@@ -92,7 +92,7 @@ Notes
 
  Notes
 
-:arrow_right: [log](note_log.txt)
+:arrow_right: [log](note_log.md)
 
 - Keywords
   - Date & Time
