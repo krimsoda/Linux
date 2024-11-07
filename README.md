@@ -140,7 +140,7 @@ Notes
 
  Notes
 
-:arrow_right:[notes](note_troubleshooting.txt)
+:arrow_right:[notes](note_troubleshooting.md)
 
  ### :helicopter: Productivity
  - bash-completion
