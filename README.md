@@ -200,4 +200,4 @@ Notes
    - AuditD 
 
  ### :helicopter: Socratic Linux Administration
-  :arrow_right: [Socratic Linux Administration](Socratic Linux Administration.md)
+  :arrow_right: [Socratic Linux Administration](Socratic_Linux_Administration.md)
