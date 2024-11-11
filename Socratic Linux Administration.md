@@ -1,0 +1,107 @@
+- Boot
+	- How is the process? Kernel Ring Buffer
+	- Check if Last Shutdown Was Clean
+		- last -x | grep -E 'reboot|shutdown'
+		- journalctl -b -1 | grep -i shutdown
+		- dmesg | grep -i "EXT4-fs"
+		- who -b
+	- Clean Process – how to check
+		- systemd-analyze time
+		- Systemctl –
+	- How to rebuild GRUB
+- Disk
+	- Check disk info
+	- Types
+		- Fdisk -l
+		- Blkid
+		- lsblk
+		- lsusb | lspci
+	- Partition
+	- Check diskspace
+		- Du
+		- Df
+- Mount
+	- How to check?
+		- Mount -t
+	- How to add?
+	- Temporary = Mount
+	- Permanent =
+-
+- System & Hardware
+	- How to check operating system
+		- Cat /etc/*release
+		- Uname -a | hostnamectl
+- How to check hardware
+	- General - Dmesg | dmidecode | lspci
+	- Cpu
+		- lscpu
+- Memory – systeminfo
+	- dmidecode -t memory | grep -i size
+	- Memstat
+- Network
+	- How to check cable connected
+		- ip link show
+		- nmcli (connected)
+	- How to check connection is active
+		- Nmcli
+	- How to check destination IP is alive
+		- Ping | nslookup | dig | traceroute
+	- How to configure the ip and connection?
+		- Nmcli
+		- Nmtui
+	- Port
+		- Local
+			- Netstat -tulpn
+			- Ss -tulpn
+		- Remote
+			- Nmap
+-
+- User and group & File and Folder permission
+- User & Group
+	- How to check user (Status | Group)
+	- How to add user and delete (with verbose)
+	- How to modified user and what can be modified? (add group)
+	- How to set user (Lock | Unlock)
+- Group
+	- How to add and delete group
+	- How to add user into group
+- File and Folder permission
+	- How to check file & folder permission
+		- Ls
+		- Stat [file/folder]
+- How to add and remove file and folder permission (read | write | execute)
+- How to change owner for file and folder?
+- How to give permission to execute
+	- chmod +x [file]
+- How to reset file and folder
+-
+- Services (systemd) & Process
+	- How to list all running services? And enabled
+		- Systemctl –
+	- How to list all running process
+		- ps
+- Performance
+	- CPU
+	- Memory
+	- Disk
+	- Network
+- Spike process
+- Schedule Task
+- Check what is running
+- cat /etc/crontab
+- crontab -l
+- File & Command Manipulation
+- Cat
+- Grep
+- General Troubleshooting
+- Is there any change or activity related
+- Who is impact
+- How is symptom and error code
+- Pattern (Time, Date, Day, Week, Month – Repetitive)
+- Comparison
+- Previous state
+- Working environment
+- Action
+- Check the log and if need Rerun the issue (command)
+- Compare with working system
+- Check with previous state
