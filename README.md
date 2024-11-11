@@ -198,3 +198,5 @@ Notes
    - Decentralized Authentication (local user accounts)
  - Linux Audit Framework
    - AuditD 
+
+ ### :helicopter: Socratic Linux Administration
