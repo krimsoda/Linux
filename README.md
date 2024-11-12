@@ -187,7 +187,7 @@ Notes
    - STIG Standard (Security Technical Implementation Guide)
      -  Federal Information Processing Standard (FIPS)
      -  SELinux
- -  Hardening
+ -  Hardening (process of securing systems by applying configurations, controls, and best practices that minimize potential vulnerabilities.)
  - Vulnerability Scanning and Patching
     - Security Technical Implementation Guides (STIGs) Viewer
     - Security Content Automation Protocol (SCAP) Compliance Checker
