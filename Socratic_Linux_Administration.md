@@ -3,19 +3,24 @@
 	- Check if Last Shutdown Was Clean
 		- last -x | grep -E 'reboot|shutdown'
 		- journalctl -b -1 | grep -i shutdown
+ 		- journalctl -p err	
 		- dmesg | grep -i "EXT4-fs"
 		- who -b
 	- Clean Process – how to check
 		- systemd-analyze time
-		- Systemctl –
+ 		- systemd-analyze critical-chain
+   		- systemctl --failed
 	- How to rebuild GRUB
 - Disk
 	- Check disk info
 	- Types
-		- Fdisk -l
-		- Blkid
+		- fdisk -l
+		- df -h
+		- du -sh /path
+		- blkid
 		- lsblk
 		- lsusb | lspci
+		- iostat 1
 	- Partition
 	- Check diskspace
 		- Du
