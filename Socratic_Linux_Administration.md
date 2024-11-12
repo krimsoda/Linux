@@ -29,13 +29,13 @@
 	- How to check?
 		- Mount -t
 	- How to add?
-	- Temporary = Mount
-	- Permanent =
+		- Temporary = Mount
+		- Permanent =
 -
 - System & Hardware
 	- How to check operating system
-		- Cat /etc/*release
-		- Uname -a | hostnamectl
+		- cat /etc/*release
+		- uname -a | hostnamectl
 - How to check hardware
 	- General - Dmesg | dmidecode | lspci
 	- Cpu
