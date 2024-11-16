@@ -5,7 +5,7 @@
 - add init=/bin/bash
 - PRESS CTRL + x
   - grep "/" /proc/mounts --> to check ro (look at /)
-- mount -o remount,rw / --> to change ro change to rw
+- mount -o remount,rw / --> to change ro to rw
   - grep "/" /proc/mounts --> to recheck ro change to rw
   - echo $PATH
   - /sbin/getenforce --> check SELinux disable
