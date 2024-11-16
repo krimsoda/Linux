@@ -12,8 +12,8 @@
   - ls -lZ /etc/shadow (critical to refer "system_u:object_r:shadow_t:s0" before set root password)
 - passwd (to set a root passwd)
 - chcon system_u:object_r:shadow_t:s0 /etc/shadow (to Change Context shadow file as before)
-  - ls -lZ /etc/shadow to recheck
-- exec /sbin/init (ls -l /sbin/init) to reboot system
+  - ls -lZ /etc/shadow (to recheck)
+- exec /sbin/init (to reboot system)
 
 ---
 ## Resources
