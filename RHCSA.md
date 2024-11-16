@@ -5,11 +5,11 @@
 - add init=/bin/bash
 - PRESS CTRL + x
   - grep "/" /proc/mounts --> to check ro (look at /)
-- mount -o remount,rw /
+- mount -o remount,rw / --> to change ro change to rw
   - grep "/" /proc/mounts --> to recheck ro change to rw
   - echo $PATH
   - /sbin/getenforce --> check SELinux disable
-  - ls -lZ /etc/shadow (critical to refer "system_u:object_r:shadow_t:s0" before set root password)
+- ls -lZ /etc/shadow (critical to refer "system_u:object_r:shadow_t:s0" before set root password)
 - passwd (to set a root passwd)
 - chcon system_u:object_r:shadow_t:s0 /etc/shadow (to Change Context shadow file as before)
   - ls -lZ /etc/shadow (to recheck)
