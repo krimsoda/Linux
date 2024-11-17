@@ -11,6 +11,9 @@
 - awk
 - sed
 - touch
+- Absolute and Relative Path (/)
+  - ~
+  - . and ..
 - Advanced Linux Commands
   - Find & exec & xargs 
 
