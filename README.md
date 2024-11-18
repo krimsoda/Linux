@@ -16,9 +16,9 @@
 - Disk Management : du | df | fdisk | parted | blkid | lsblk | lsusb | mount | findmnt
 - top | htop | free  | iostat | vmstat | netstat | mpstat
 - systemctl --failed | systemd-analyze
-- Network Management : nmcli | ip | ifconfig |  nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet
+- Network Management : nmcli | ip | ifconfig |  nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet | scp | curl | wget | nc
 - hostname | hostnamectl | uname | env | 
-- scp | curl | wget | nc
+
 - dos2unix | unix2dos
 - Package Management: rpm | yum | dnf
 - dmidecode | lscpu | lspci
