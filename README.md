@@ -17,7 +17,7 @@
 - du | df | free 
 - top | htop | iostat | vmstat | netstat | mpstat
 - systemctl --failed | systemd-analyze
-- nmcli | ip | ifconfig |  nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet
+- Network Management : nmcli | ip | ifconfig |  nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet
 - hostname | hostnamectl | uname | env | 
 - scp | curl | wget | nc
 - dos2unix | unix2dos
