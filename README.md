@@ -7,8 +7,8 @@
 ### :helicopter:Some basic Linux Commands are:
 - reboot | poweroff
 - su - | sudo | sudo su
-- cd | pwd | mv | cp | rm | mkdir
-- ls | cat | grep | sort | uniq | xargs | wc
+- cd | pwd | mv -i | cp -i | rm -i | mkdir -i  | rmdir -i | ln
+- ls | cat | grep | sort | uniq | xargs | wc | head | tail | more | less
 - awk | sed | touch
 - cmp | comm
 - id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
@@ -19,6 +19,7 @@
 - top | htop | iostat | vmstat | netstat | mpstat
 - systemctl --failed | systemd-analyze
 - nmcli | ip
+- dos2unix | unix2dos
 - vi | vim | nano
 - Absolute and Relative Path (/)
   - ~
