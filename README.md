@@ -21,7 +21,7 @@
 - hostname | hostnamectl | uname | env | 
 - scp | curl | wget | nc
 - dos2unix | unix2dos
-- rpm | yum | dnf
+- Package Management: rpm | yum | dnf
 - dmidecode | lscpu | lspci
 - history
 - date | time
