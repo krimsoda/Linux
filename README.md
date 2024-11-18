@@ -8,22 +8,25 @@
 - reboot | poweroff
 - su - | sudo | sudo su
 - cd | pwd | mv -i | cp -i | rm -i | mkdir -i  | rmdir -i | ln
-- ls | cat | grep | sort | uniq | xargs | wc | head | tail | more | less | find
+- ls | cat | grep | sort | uniq | xargs | wc | head | tail | more | less | find | tac
 - awk | sed | touch | echo
 - cmp | comm
 - id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
 - ps | jobs | bg | lsof | kill | killall
 - mount | findmnt
-- fdisk | blkid | lsblk
+- fdisk | blkid | lsblk | lsusb
 - du | df | free
 - top | htop | iostat | vmstat | netstat | mpstat
 - systemctl --failed | systemd-analyze
-- nmcli | ip | nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet
+- nmcli | ip | ifconfig |  nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet
 - hostname | hostnamectl | uname | env | 
 - scp | curl | wget | nc
 - dos2unix | unix2dos
 - rpm | yum | dnf
+- dmidecode | lscpu | lspci
 - history
+- date | time
+- tar | gzip
 - vi | vim | nano
 - Absolute and Relative Path (/)
   - ~
