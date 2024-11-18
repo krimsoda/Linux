@@ -9,7 +9,7 @@
 - su - | sudo | sudo su
 - cd | pwd | mv -i | cp -i | rm -i | mkdir -i  | rmdir -i | ln
 - ls | cat | grep | sort | uniq | xargs | wc | head | tail | more | less
-- awk | sed | touch
+- awk | sed | touch | echo
 - cmp | comm
 - id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
 - ps | jobs | bg | lsof | kill | killall
