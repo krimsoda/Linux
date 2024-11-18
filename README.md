@@ -7,14 +7,13 @@
 ### :helicopter:Some basic Linux Commands are:
 - reboot | poweroff
 - su - | sudo | sudo su
-- cd | pwd | mv -i | cp -i | rm -i | mkdir -i  | rmdir -i | ln
+- Navigation : cd | pwd | mv -i | cp -i | rm -i | mkdir -i  | rmdir -i | ln
 - ls | cat | grep | sort | uniq | xargs | wc | head | tail | more | less | find | tac
 - awk | sed | touch | echo
 - cmp | comm
-- id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
-- ps | jobs | bg | lsof | kill | killall | systemctl
-- mount | findmnt
-- fdisk | blkid | lsblk | lsusb
+- User Management : id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
+- Process Management : ps | jobs | bg | lsof | kill | killall | systemctl
+- Disk Management : fdisk | blkid | lsblk | lsusb | mount | findmnt
 - du | df | free
 - top | htop | iostat | vmstat | netstat | mpstat
 - systemctl --failed | systemd-analyze
