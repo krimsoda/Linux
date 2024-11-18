@@ -18,7 +18,7 @@
 - du | df | free
 - top | htop | iostat | vmstat | netstat | mpstat
 - systemctl --failed | systemd-analyze
-- nmcli | ip
+- nmcli | ip | ping | traceroute | tracepath | nslookup | dig | route |  mtr | tcpdump | netstat | ssh | telnet
 - dos2unix | unix2dos
 - history
 - vi | vim | nano
