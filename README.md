@@ -10,10 +10,13 @@
 - ls | cat | grep | sort | uniq | xargs | wc
 - awk | sed | touch
 - cmp | comm
-- useradd | usermod | userdel | passwd | whoami | chage | chmod | chown | stat
-- ps | kill | killall
+- id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
+- ps | lsof | kill | killall
 - mount | findmnt
 - fdisk | blkid | lsblk
+- du | df | free
+- top | htop | iostat | vmstat | netstat | mpstat
+- systemd-analyze
 - vi | vim | nano
 - Absolute and Relative Path (/)
   - ~
