@@ -21,7 +21,7 @@
 - Absolute and Relative Path (/)
   - ~
   - . and ..
-- ./ (to execute command)
+- ./ (to execute command) | sh
 - Advanced Linux Commands
   - Find & exec & xargs 
 
