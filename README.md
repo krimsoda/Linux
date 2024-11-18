@@ -5,6 +5,7 @@
 ## Linux # System # Management # Configuration # Security # 
 
 ### :helicopter:Some basic Linux Commands are:
+- reboot | poweroff
 - su - | sudo | sudo su
 - cd | pwd | mv | cp | rm | mkdir
 - ls | cat | grep | sort | uniq | xargs | wc
