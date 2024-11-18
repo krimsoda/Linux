@@ -12,7 +12,7 @@
 - awk | sed | touch | echo
 - cmp | comm
 - id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
-- ps | jobs | bg | lsof | kill | killall
+- ps | jobs | bg | lsof | kill | killall | systemctl
 - mount | findmnt
 - fdisk | blkid | lsblk | lsusb
 - du | df | free
