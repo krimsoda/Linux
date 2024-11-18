@@ -8,9 +8,9 @@
 - reboot | poweroff
 - su - | sudo | sudo su
 - Navigation : cd | pwd | mv -i | cp -i | rm -i | mkdir -i  | rmdir -i | ln
-- ls | cat | grep | sort | uniq | xargs | exec | wc | head | tail | more | less | find | cut | tac
+- ls | cat | tac | grep | sort | uniq | xargs | exec | wc | head | tail | more | less | find | cut
 - awk | sed | touch | echo | paste
-- cmp | comm | diff
+- cmp | comm | diff | sdiff |  tee | split | nl
 - User Management : id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
 - Process Management : ps | jobs | bg | lsof | kill | killall | systemctl
 - Disk Management : du | df | fdisk | parted | blkid | lsblk | lsusb | mount | findmnt
