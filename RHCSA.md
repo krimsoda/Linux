@@ -1,7 +1,7 @@
 # RHCSA
 ### Reset Root Password
 - GRUB menu PRESS e
-- Navigate to a line starts with 'linux' and press CTRL + e (end of line)
+- Navigate to a line starts with 'linux' and press CTRL + e (go to end of line)
 - add init=/bin/bash
 - PRESS CTRL + x
   - grep "/" /proc/mounts --> to check ro (look at /)
