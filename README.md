@@ -17,7 +17,8 @@
 - fdisk | blkid | lsblk
 - du | df | free
 - top | htop | iostat | vmstat | netstat | mpstat
-- systemd-analyze
+- systemctl --failed | systemd-analyze
+- nmcli | ip
 - vi | vim | nano
 - Absolute and Relative Path (/)
   - ~
