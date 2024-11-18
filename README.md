@@ -18,9 +18,11 @@
 - du | df | free
 - top | htop | iostat | vmstat | netstat | mpstat
 - systemctl --failed | systemd-analyze
-- nmcli | ip | nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet | host
+- nmcli | ip | nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet
+- hostname | hostnamectl | uname | env | 
 - scp | curl | wget | nc
 - dos2unix | unix2dos
+- rpm | yum | dnf
 - history
 - vi | vim | nano
 - Absolute and Relative Path (/)
