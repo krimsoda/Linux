@@ -31,7 +31,7 @@
 - ./ (to execute command) | sh
 - Advanced Linux Commands
   - Find & exec & xargs 
-
+- bash-completion utility
 ### :helicopter:User & Group Management
 notes
 - su	 #Switching users	
