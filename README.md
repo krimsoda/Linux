@@ -18,8 +18,7 @@
 - systemctl --failed | systemd-analyze
 - Network Management : nmcli | ip | ifconfig |  nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet | scp | curl | wget | nc
 - hostname | hostnamectl | uname | env | 
-
-- dos2unix | unix2dos
+- Text file format converters : dos2unix | unix2dos
 - Package Management: rpm | yum | dnf
 - dmidecode | lscpu | lspci
 - history
