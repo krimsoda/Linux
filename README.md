@@ -12,7 +12,7 @@
 - awk | sed | touch
 - cmp | comm
 - id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
-- ps | lsof | kill | killall
+- ps | jobs | bg |  lsof | kill | killall
 - mount | findmnt
 - fdisk | blkid | lsblk
 - du | df | free
@@ -20,6 +20,7 @@
 - systemctl --failed | systemd-analyze
 - nmcli | ip
 - dos2unix | unix2dos
+- history
 - vi | vim | nano
 - Absolute and Relative Path (/)
   - ~
