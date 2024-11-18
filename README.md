@@ -4,16 +4,21 @@
 
 ## Linux # System # Management # Configuration # Security # 
 
-### :helicopter:Some basic Linux commands are:
-- cd | ls | mkdir
-- cat
-- grep | sort | uniq | xargs | wc 
-- awk
-- sed
-- touch
+### :helicopter:Some basic Linux Commands are:
+- su - | sudo | sudo su
+- cd | pwd | mv | cp | rm | mkdir
+- ls | cat | grep | sort | uniq | xargs | wc
+- awk | sed | touch
+- cmp | comm
+- useradd | usermod | userdel | passwd | whoami | chage | chmod | chown | stat
+- ps | kill | killall
+- mount | findmnt
+- fdisk | blkid | lsblk
+- vi | vim | nano
 - Absolute and Relative Path (/)
   - ~
   - . and ..
+- ./ (to execute command)
 - Advanced Linux Commands
   - Find & exec & xargs 
 
@@ -21,6 +26,7 @@
 notes
 - su	 #Switching users	
 - sudo	 #Executing commands as another user. Group = [wheel | sudo]
+- sudo su
 - newgrp	#Switching user groups
 - Users Management
   - Creating Users | Modifying User Accounts (Add | Remove user from group) | Reset Users (Default Setting) |  Deleting Users
