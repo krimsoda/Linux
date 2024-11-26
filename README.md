@@ -11,7 +11,7 @@
 - ls | cat | tac | grep | sort | uniq | xargs | exec | wc | head | tail | more | less | find | cut
 - awk | sed | touch | echo | paste
 - cmp | comm | diff | sdiff |  tee | split | nl
-- User Management : id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | stat
+- User Management : id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | umask | stat
 - Process Management : ps | jobs | bg | lsof | kill | killall | systemctl
 - Disk Management : du | df | fdisk | parted | blkid | lsblk | lsusb | mount | findmnt
 - top | htop | free  | iostat | vmstat | netstat | mpstat
