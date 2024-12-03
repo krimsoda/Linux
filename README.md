@@ -13,7 +13,7 @@
 - cmp | comm | diff | sdiff |  tee | split | nl
 - User Management : id | who | whoami | useradd | usermod | userdel | passwd | groups | chage | chmod | chown | umask | stat
 - Process Management : ps | jobs | bg | lsof | kill | killall | systemctl
-- Disk Management : du | df | fdisk | parted | blkid | lsblk | lsusb | mount | findmnt
+- Disk Management : du | df | fdisk | parted | blkid | lsblk | lsusb | lsscsi | mount | findmnt
 - top | htop | free  | iostat | vmstat | netstat | mpstat
 - systemctl --failed | systemd-analyze
 - Network Management : nmcli | ip | ifconfig |  nmtui | ping | dhclient | ss | traceroute | tracepath | nslookup | dig | route |  mtr | arp | tcpdump | netstat | ssh | telnet | scp | curl | wget | nc
