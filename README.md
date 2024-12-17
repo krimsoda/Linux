@@ -222,5 +222,7 @@ Notes
   :arrow_right: [Socratic Linux Administration](Socratic_Linux_Administration.md)
 
  ### :helicopter: RHCSA
+  :arrow_right: [RHCSA Objectives](RHCSA._Objectives.md)
+  
   :arrow_right: [RHCSA](RHCSA.md)
   
