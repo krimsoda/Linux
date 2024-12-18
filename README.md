@@ -226,3 +226,7 @@ Notes
   
   :arrow_right: [RHCSA](RHCSA.md)
   
+---
+ ### :helicopter: CheatSheet
+
+ :arrow_right: [CheatSheet](CheatSheet.md)
