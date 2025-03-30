@@ -1,0 +1,18 @@
+- Server requirement | iso bootable - balena archer - apt install ./balenaEtcher-linux-x64-2.1.0
+- Partition | file system type
+- command
+	- systemctl reboot --firmware
+	- nano /etc/default/grub
+	- dnf install openssh-server
+	- usermode -aG sudo jorn --> add jorn into sudo group
+	- dnf install afetch | neofetch
+- Linux Server Best Practice
+	- Installing all available updates via apt (Debian/Ubuntu/etc)
+	- Installing all available updates (Fedora)
+	- Creating a non-root user for ourselves (general method)
+	- Creating a non-root user for ourselves (Debian/Ubuntu specific method)
+	- Setting the hostname/domain name for the server
+	- Adding the servers hostname/domain name to /etc/hosts
+	- Generating an SSH key
+	- Copying an SSH public key to a server
+	- Disabling root login password access for SSH
