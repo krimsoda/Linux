@@ -9,3 +9,6 @@ sestatus
 /etc/selinux/config and reboot, or run setenforce 1
 
 ls -Z /var
+
+
+https://tryhackme.zoom.us/w/88646807458?tk=kIG14Qd72uX50BxkTg2xtV31E4b9b583p19zK4C4N2U.DQcAAAAUo8LvohZwV3U4cG0yRVFUYVFnWlAwWnVZVEhnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&uuid=WN_PiqFYiHvSa2DdHS72Vh2hg
